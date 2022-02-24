@@ -4,7 +4,7 @@ A HAT design to be added to the STM32 microcontroller.
 
 ## Proximity and Temperature Sensing HAT
 
-Our HAT will consist of a temperature, humidity and proximity sensor. These sensors will allow for our HAT to provide the device it is attached to with useful parameters of its environment. The device we would attach our HAT to would be a water dispenser. The proximity sensor will be able to detect when a glass is in position to be filled and the temperature sensor will help to keep the water’s temperature consistent.
+Our HAT will include a temperature and proximity sensor. These sensors will allow for our HAT to provide the device it is attached to with useful parameters of its environment. The device we will be attaching our HAT to is the STM32 Discovery Microcontroller. The scenario we would use our HAT in would be to create efficient water dispensers. The proximity sensor will be able to detect when a bottle/hand is in position to receive water and the temperature sensor will help to monitor the water’s temperature. Other scenarios our HAT could be used in include drones, cars and automatic sliding doors
 
 ## Contents
 This repo contains all files needed to understand the functionality of the HAT as well as have the HAT built.
