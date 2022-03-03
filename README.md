@@ -17,6 +17,8 @@ This repo contains all files needed to understand the functionality of the HAT a
 
 * [PCB](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/PCB) - Contains PCB schematic diagrams 
 
+* [Production](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/Production) - Documents relating to cost of HAT and production of HAT
+
 * [Simulation](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main/PCB/Simulation) - Contains documents neccessary for the fabrication of the HAT
 
 
