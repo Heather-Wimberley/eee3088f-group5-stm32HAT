@@ -766,7 +766,6 @@
   )
 
 
-
   (wire (pts (xy 211.455 44.45) (xy 215.265 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2361ed9d-44ac-40c1-ab71-db1419d4ef87)
@@ -2352,7 +2351,7 @@
       (reference "#PWR0113") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7978c4a0-cf66-4cf0-8ba1-e6609225f7d5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
       (reference "C1") (unit 1) (value "C") (footprint "")
@@ -2399,17 +2398,17 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/49fad774-6882-493c-8759-60a62c481f37"
       (reference "R6") (unit 1) (value "R") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c3846b01-7bef-4593-9ac7-7c18bda05643"
-      (reference "U1") (unit 1) (value "USB_Micro_B_Female_Connector") (footprint "")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/cc508495-f8ae-452c-913c-83aef60d2608"
       (reference "U2") (unit 1) (value "CH340G") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/69f2157d-d8d6-4e3d-936e-f283cc0093e7"
       (reference "U3") (unit 1) (value "AT24C256C-SSHL-T") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
     )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/14a551c5-a8e7-46f5-bf14-1cd0eb0364bc"
+      (reference "U?") (unit 1) (value "USB_Micro_B_Female_Connector") (footprint "Footprint_EEE3088F:MICRO-USB-SMD_U254-051T-4BH83-S1S")
+    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/38c1900a-5c63-45f1-9890-0b700a888ab6"
-      (reference "X?") (unit 1) (value "12MHz_SMD_Crystal") (footprint "")
+      (reference "X1") (unit 1) (value "12MHz_SMD_Crystal") (footprint "Footprint_EEE3088F:OSC-SMD_4P-L3.2-W2.5-BL")
     )
   )
 )
