@@ -766,6 +766,7 @@
   )
 
 
+
   (wire (pts (xy 211.455 44.45) (xy 215.265 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2361ed9d-44ac-40c1-ab71-db1419d4ef87)
@@ -2350,6 +2351,9 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/52f27a94-16d3-4827-8e0c-e943f07e7e97"
       (reference "#PWR0113") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7978c4a0-cf66-4cf0-8ba1-e6609225f7d5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
       (reference "C1") (unit 1) (value "C") (footprint "")
     )
@@ -2404,8 +2408,8 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/69f2157d-d8d6-4e3d-936e-f283cc0093e7"
       (reference "U3") (unit 1) (value "AT24C256C-SSHL-T") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/76450cc8-f72e-4559-80b4-a6096318edf3"
-      (reference "X322512MSB4SI") (unit 1) (value "12Mhz") (footprint "")
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/38c1900a-5c63-45f1-9890-0b700a888ab6"
+      (reference "X?") (unit 1) (value "12MHz_SMD_Crystal") (footprint "")
     )
   )
 )
