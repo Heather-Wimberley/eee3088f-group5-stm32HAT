@@ -2314,11 +2314,8 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7afa740a-5ebf-4933-9e1c-3e1d40f689d9"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ec976b57-15ad-425f-b3dc-37d60d369b3e"
-      (reference "#PWR0102") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0fd6e5ff-68db-4cf7-9f43-9b86411c044f"
-      (reference "#PWR0103") (unit 1) (value "+3V3") (footprint "")
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f5e14cdb-4b84-417f-b707-5294c0ad460f"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0c3dc0c4-ac0f-477b-887e-13f02296aff4"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
@@ -2338,23 +2335,14 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f974b9c5-4374-4595-a52c-e8048b503eb5"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/16ac349f-9e3a-4834-9871-f45e4b2d5ad6"
-      (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/52f27a94-16d3-4827-8e0c-e943f07e7e97"
-      (reference "#PWR0113") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7978c4a0-cf66-4cf0-8ba1-e6609225f7d5"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f5e14cdb-4b84-417f-b707-5294c0ad460f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
-      (reference "C1") (unit 1) (value "33p") (footprint "")
+      (reference "C1") (unit 1) (value "33p") (footprint "Footprint_EEE3088F:C0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0bb047bb-c679-4bfc-b861-9203dafc1b5e"
-      (reference "C2") (unit 1) (value "33p") (footprint "")
+      (reference "C2") (unit 1) (value "33p") (footprint "Footprint_EEE3088F:C0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/27225655-0214-4927-8e1e-aaa024a14717"
       (reference "C4") (unit 1) (value "0.1u") (footprint "")
@@ -2375,13 +2363,13 @@
       (reference "J4") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/789fde59-6346-41c4-8bdd-f9aa5fd7f3db"
-      (reference "R1") (unit 1) (value "R") (footprint "")
+      (reference "R1") (unit 1) (value "82") (footprint "Footprint_EEE3088F:R0603")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/4a562162-6334-45a5-949c-90f35b91184b"
-      (reference "R5") (unit 1) (value "10k") (footprint "")
+      (reference "R5") (unit 1) (value "10k") (footprint "Footprint_EEE3088F:R0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/49fad774-6882-493c-8759-60a62c481f37"
-      (reference "R6") (unit 1) (value "10k") (footprint "")
+      (reference "R6") (unit 1) (value "10k") (footprint "Footprint_EEE3088F:R0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/14a551c5-a8e7-46f5-bf14-1cd0eb0364bc"
       (reference "U1") (unit 1) (value "USB_Micro_B_Female_Connector") (footprint "Footprint_EEE3088F:MICRO-USB-SMD_U254-051T-4BH83-S1S")
@@ -2390,7 +2378,7 @@
       (reference "U2") (unit 1) (value "CH340G") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/2fbf5a94-0033-4cc7-b46e-78bb9dcc77df"
-      (reference "U?") (unit 1) (value "AT24C256C-SSHL-T") (footprint "Footprint_EEE3088F:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL")
+      (reference "U3") (unit 1) (value "AT24C256C-SSHL-T") (footprint "Footprint_EEE3088F:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/38c1900a-5c63-45f1-9890-0b700a888ab6"
       (reference "X1") (unit 1) (value "12MHz_SMD_Crystal") (footprint "Footprint_EEE3088F:OSC-SMD_4P-L3.2-W2.5-BL")
