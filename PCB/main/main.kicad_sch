@@ -2320,9 +2320,6 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0fd6e5ff-68db-4cf7-9f43-9b86411c044f"
       (reference "#PWR0103") (unit 1) (value "+3V3") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0839b4b3-78bb-49d1-961f-1ed001ef37ee"
-      (reference "#PWR0104") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0c3dc0c4-ac0f-477b-887e-13f02296aff4"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
@@ -2341,9 +2338,6 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f974b9c5-4374-4595-a52c-e8048b503eb5"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/75898063-b4ef-4585-9378-342c1c23236b"
-      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/16ac349f-9e3a-4834-9871-f45e4b2d5ad6"
       (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
     )
@@ -2353,20 +2347,20 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7978c4a0-cf66-4cf0-8ba1-e6609225f7d5"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f5e14cdb-4b84-417f-b707-5294c0ad460f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
-      (reference "C1") (unit 1) (value "C") (footprint "")
+      (reference "C1") (unit 1) (value "33p") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0bb047bb-c679-4bfc-b861-9203dafc1b5e"
-      (reference "C2") (unit 1) (value "C") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ccecad78-ce88-4f03-9aa5-955312016b24"
-      (reference "C3") (unit 1) (value "C") (footprint "")
+      (reference "C2") (unit 1) (value "33p") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/27225655-0214-4927-8e1e-aaa024a14717"
-      (reference "C4") (unit 1) (value "C") (footprint "")
+      (reference "C4") (unit 1) (value "0.1u") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ff965ae9-0de4-48fa-a1a6-d1580e191547"
-      (reference "D1") (unit 1) (value "LED") (footprint "")
+      (reference "D1") (unit 1) (value "LED") (footprint "Footprint_EEE3088F:LED0603-R-RD")
     )
     (path "/ae3c331f-8808-430e-931c-7d9b2cc37f5b"
       (reference "J1") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
@@ -2383,29 +2377,20 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/789fde59-6346-41c4-8bdd-f9aa5fd7f3db"
       (reference "R1") (unit 1) (value "R") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/447d0dc1-7ef7-442a-bd79-5ee03166dd3f"
-      (reference "R2") (unit 1) (value "R") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/96808de2-ff72-45a5-9033-73c793417ea0"
-      (reference "R3") (unit 1) (value "R") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/41b0d612-bf41-4c50-bc12-e917ad07dbd8"
-      (reference "R4") (unit 1) (value "R") (footprint "")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/4a562162-6334-45a5-949c-90f35b91184b"
-      (reference "R5") (unit 1) (value "R") (footprint "")
+      (reference "R5") (unit 1) (value "10k") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/49fad774-6882-493c-8759-60a62c481f37"
-      (reference "R6") (unit 1) (value "R") (footprint "")
+      (reference "R6") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/14a551c5-a8e7-46f5-bf14-1cd0eb0364bc"
+      (reference "U1") (unit 1) (value "USB_Micro_B_Female_Connector") (footprint "Footprint_EEE3088F:MICRO-USB-SMD_U254-051T-4BH83-S1S")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/cc508495-f8ae-452c-913c-83aef60d2608"
       (reference "U2") (unit 1) (value "CH340G") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/69f2157d-d8d6-4e3d-936e-f283cc0093e7"
-      (reference "U3") (unit 1) (value "AT24C256C-SSHL-T") (footprint "Package_SO:TSSOP-8_4.4x3mm_P0.65mm")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/14a551c5-a8e7-46f5-bf14-1cd0eb0364bc"
-      (reference "U?") (unit 1) (value "USB_Micro_B_Female_Connector") (footprint "Footprint_EEE3088F:MICRO-USB-SMD_U254-051T-4BH83-S1S")
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/2fbf5a94-0033-4cc7-b46e-78bb9dcc77df"
+      (reference "U?") (unit 1) (value "AT24C256C-SSHL-T") (footprint "Footprint_EEE3088F:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/38c1900a-5c63-45f1-9890-0b700a888ab6"
       (reference "X1") (unit 1) (value "12MHz_SMD_Crystal") (footprint "Footprint_EEE3088F:OSC-SMD_4P-L3.2-W2.5-BL")
