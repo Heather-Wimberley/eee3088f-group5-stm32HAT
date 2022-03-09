@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Microcontroller Interfacing")
+    (date "2022-03-09")
+    (rev "v1.0")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
@@ -453,6 +459,7 @@
     )
   )
 
+
   (junction (at 182.88 103.505) (diameter 0) (color 0 0 0 0)
     (uuid 0a8d7961-1a24-4a5d-ab17-dab9e9e9c410)
   )
@@ -489,6 +496,16 @@
   (junction (at 121.92 68.58) (diameter 0) (color 0 0 0 0)
     (uuid c7c7250f-cb90-443a-9857-d5f1515279bb)
   )
+
+  (no_connect (at 134.62 93.98) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 134.62 91.44) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 134.62 104.14) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 134.62 101.6) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 134.62 99.06) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 134.62 96.52) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 114.3 86.36) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 66.04 93.98) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
+  (no_connect (at 78.74 96.52) (uuid 228a6da5-d93b-4ab5-8d2b-a04ff88d8283))
 
   (wire (pts (xy 109.22 130.175) (xy 115.57 130.175))
     (stroke (width 0) (type default) (color 0 0 0 0))
