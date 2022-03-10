@@ -1167,6 +1167,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "GND" (shape output) (at 84.455 165.1 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5493357e-95ed-4e7d-86a9-f21bad3a653a)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 84.5344 158.8164 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "PB4" (shape input) (at 267.335 46.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 58e1c615-0966-42a0-a91b-875b3d13162c)
@@ -1959,6 +1966,22 @@
     (pin "1" (uuid dcbc5a2e-2561-4663-8736-09acc9fe0209))
   )
 
+  (symbol (lib_id "power:GND") (at 84.455 165.1 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 7ae103b2-8808-43ca-8279-63b631b3a5e5)
+    (property "Reference" "#PWR0101" (id 0) (at 84.455 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 84.455 169.5434 0))
+    (property "Footprint" "" (id 2) (at 84.455 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 84.455 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 521aa854-85f1-42aa-af27-be7045b7884f))
+  )
+
   (symbol (lib_id "power:+5V") (at 253.365 24.13 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7c938fcf-5266-4f01-b9d8-797ff7c61f4c)
@@ -2415,32 +2438,8 @@
     (path "/41b2f142-5b8a-4f0d-814d-f9932af5ae20"
       (reference "#PWR018") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7afa740a-5ebf-4933-9e1c-3e1d40f689d9"
+    (path "/7ae103b2-8808-43ca-8279-63b631b3a5e5"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f5e14cdb-4b84-417f-b707-5294c0ad460f"
-      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0c3dc0c4-ac0f-477b-887e-13f02296aff4"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/e650a1ef-49d6-461c-927c-393af2632cef"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/220ad6c1-f581-4d03-82fa-e8d18a9d5193"
-      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/37bc36eb-082a-48df-9d9b-56f79b759542"
-      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/bf654285-ade0-40e5-a331-5fc5d5f11c9b"
-      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f974b9c5-4374-4595-a52c-e8048b503eb5"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7978c4a0-cf66-4cf0-8ba1-e6609225f7d5"
-      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
       (reference "C1") (unit 1) (value "33p") (footprint "Footprint_EEE3088F:C0402")
@@ -2465,6 +2464,30 @@
     )
     (path "/39549a53-fe72-4509-a12d-de170bbf0433"
       (reference "J4") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f42e3162-46dc-41a7-8787-5fd723281666"
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7ac1d974-4c4f-4a9f-9fa3-8448341ac098"
+      (reference "JP2") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/b0a72ccb-4424-46e7-99e2-e20a327059d1"
+      (reference "JP3") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/63bf093a-bb92-4b04-b4f5-2d98729eae5c"
+      (reference "JP4") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ed62d920-ef6a-4084-b6c7-a756ac00c222"
+      (reference "JP5") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/1be8b492-ceeb-41d4-8a97-de6f54e38f35"
+      (reference "JP6") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/61b9102d-e0e2-40f7-b83f-71ed11ff1d2d"
+      (reference "JP7") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/b73c8aa6-04a5-47a3-a2ee-6cc8eb977a8a"
+      (reference "JP8") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/789fde59-6346-41c4-8bdd-f9aa5fd7f3db"
       (reference "R1") (unit 1) (value "82") (footprint "Footprint_EEE3088F:R0603")

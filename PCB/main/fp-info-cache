@@ -1,4 +1,4 @@
-20117641130624120
+20124228601309266
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52248,6 +52248,20 @@ emi filter
 5
 5
 Footprint_EEE3088F
+C0402
+
+
+0
+2
+2
+Footprint_EEE3088F
+LED0603-R-RD
+
+
+0
+2
+2
+Footprint_EEE3088F
 MICRO-USB-SMD_U254-051T-4BH83-S1S
 
 
@@ -52261,6 +52275,20 @@ OSC-SMD_4P-L3.2-W2.5-BL
 0
 4
 4
+Footprint_EEE3088F
+R0402
+
+
+0
+2
+2
+Footprint_EEE3088F
+R0603
+
+
+0
+2
+2
 Footprint_EEE3088F
 SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 
