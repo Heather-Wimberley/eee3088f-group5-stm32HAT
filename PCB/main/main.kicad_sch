@@ -818,7 +818,6 @@
   )
 
 
-
   (wire (pts (xy 211.455 44.45) (xy 215.265 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2361ed9d-44ac-40c1-ab71-db1419d4ef87)
@@ -1895,7 +1894,7 @@
   (symbol (lib_id "power:+3.3V") (at 71.755 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4083f32a-138e-4671-8b45-a5f6a4bf79d6)
-    (property "Reference" "#PWR?" (id 0) (at 71.755 165.735 0)
+    (property "Reference" "#PWR017" (id 0) (at 71.755 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 71.755 158.3492 0))
@@ -1929,7 +1928,7 @@
   (symbol (lib_id "power:+5V") (at 78.105 161.925 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 41b2f142-5b8a-4f0d-814d-f9932af5ae20)
-    (property "Reference" "#PWR?" (id 0) (at 78.105 165.735 0)
+    (property "Reference" "#PWR018" (id 0) (at 78.105 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 78.105 158.3492 0))
@@ -2410,6 +2409,12 @@
     (path "/92adc2a7-705f-4e7b-90a7-1c91d9f5977d"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
+    (path "/4083f32a-138e-4671-8b45-a5f6a4bf79d6"
+      (reference "#PWR017") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/41b2f142-5b8a-4f0d-814d-f9932af5ae20"
+      (reference "#PWR018") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7afa740a-5ebf-4933-9e1c-3e1d40f689d9"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -2436,12 +2441,6 @@
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7978c4a0-cf66-4cf0-8ba1-e6609225f7d5"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/4083f32a-138e-4671-8b45-a5f6a4bf79d6"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/41b2f142-5b8a-4f0d-814d-f9932af5ae20"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
       (reference "C1") (unit 1) (value "33p") (footprint "Footprint_EEE3088F:C0402")
