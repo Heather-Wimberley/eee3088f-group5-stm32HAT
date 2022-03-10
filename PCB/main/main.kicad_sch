@@ -2449,7 +2449,7 @@
       (reference "C2") (unit 1) (value "33p") (footprint "Footprint_EEE3088F:C0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/27225655-0214-4927-8e1e-aaa024a14717"
-      (reference "C4") (unit 1) (value "0.1u") (footprint "")
+      (reference "C4") (unit 1) (value "0.1u") (footprint "Footprint_EEE3088F:C0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ff965ae9-0de4-48fa-a1a6-d1580e191547"
       (reference "D1") (unit 1) (value "LED") (footprint "Footprint_EEE3088F:LED0603-R-RD")
