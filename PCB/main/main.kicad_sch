@@ -2465,8 +2465,8 @@
     (path "/39549a53-fe72-4509-a12d-de170bbf0433"
       (reference "J4") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/b780d8b4-d7e3-4e44-83c5-ee8f3619abf3"
-      (reference "J5") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/4d425e25-5f7f-4d61-9ba6-2a88988a41db"
+      (reference "J5") (unit 1) (value "Conn_01x02_Female") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/26c8e6d9-6ec3-4033-bcb9-09fff6d96bac"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
