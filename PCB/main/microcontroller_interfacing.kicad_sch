@@ -1008,7 +1008,6 @@
     )
   )
 
-
   (junction (at 201.93 47.625) (diameter 0) (color 0 0 0 0)
     (uuid 0a8d7961-1a24-4a5d-ab17-dab9e9e9c410)
   )
@@ -1425,6 +1424,14 @@
   (text "USB to UART" (at 13.97 140.335 0)
     (effects (font (size 3 3) (thickness 0.8) bold) (justify left bottom))
     (uuid 695e5db3-af52-4389-a94f-42e10ad4597b)
+  )
+  (text "UART output to microcontroller" (at 76.835 47.625 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 78469401-06c1-4208-84e7-23722ae1a86f)
+  )
+  (text "I2C line to \nmicrocontoller" (at 267.335 53.975 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a73448b2-05fc-4f42-8e03-91a2d844db9a)
   )
   (text "USB Connector\n" (at 111.125 73.66 0)
     (effects (font (size 3 3) (thickness 0.8) bold) (justify left bottom))

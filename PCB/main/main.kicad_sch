@@ -817,7 +817,6 @@
   )
 
 
-
   (wire (pts (xy 211.455 44.45) (xy 215.265 44.45))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2361ed9d-44ac-40c1-ab71-db1419d4ef87)
@@ -2566,7 +2565,7 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0419e2d7-7963-4662-a910-080d1dff0d79"
       (reference "Q2") (unit 1) (value "Q_PMOS_DSG") (footprint "")
     )
-    (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/5d36c485-8691-4787-9768-7f35f77df77a"
+    (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/d25339d0-78bf-4a08-a79a-1db02c10ad49"
       (reference "Q3") (unit 1) (value "FDS6690A") (footprint "ON_Semi-CASE_751EB-0-0-*")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bfacfac8-c380-42cb-87f4-9eb1d81e10fd"
