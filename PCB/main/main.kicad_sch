@@ -2518,6 +2518,27 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/e8f06482-fb02-46ed-ad89-dea83a68a6e5"
       (reference "JP12") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/021ed89a-ca5a-454a-8f0d-f9d80781599b"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/06f39ede-c791-4795-ad3a-8bb601808b3b"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/3aaf1361-7b71-452c-aa61-68599d28c9b0"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/4d425e25-5f7f-4d61-9ba6-2a88988a41db"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/5a6be6a3-f5c4-4588-90de-f3e15e2ac316"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/6901b5a5-4d9f-486f-b29a-2311708c7746"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/e18cc07c-b550-4ab0-b115-1a3b429babd2"
+      (reference "JP?") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+    )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/ccd32485-4a57-4665-80d7-f7d7aa8b2d3f"
       (reference "M1") (unit 1) (value "CJ2301 S1") (footprint "")
     )
