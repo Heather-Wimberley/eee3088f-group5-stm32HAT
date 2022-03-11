@@ -1137,7 +1137,7 @@
     (property "Value" "0.1u" (id 1) (at 228.981 30.9122 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Footprint_EEE3088F:C0402" (id 2) (at 227.0252 33.02 0)
+    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" (id 2) (at 227.0252 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 226.06 29.21 0)
