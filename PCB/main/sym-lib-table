@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "Symbol_EEE3088F")(type "KiCad")(uri "${KIPRJMOD}/../Library_EEE3088F/Symbol_EEE3088F.kicad_sym")(options "")(descr ""))
+  (lib (name "EEE3088Components")(type "KiCad")(uri "")(options "")(descr ""))
 )

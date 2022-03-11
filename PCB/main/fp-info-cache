@@ -1,4 +1,4 @@
-20124229596398875
+20127523938517226
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52269,6 +52269,13 @@ MICRO-USB-SMD_U254-051T-4BH83-S1S
 9
 6
 Footprint_EEE3088F
+ON_Semi-CASE_751EB-0-0-0
+
+
+0
+8
+8
+Footprint_EEE3088F
 OSC-SMD_4P-L3.2-W2.5-BL
 
 
@@ -52296,6 +52303,13 @@ SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 0
 8
 8
+Footprint_EEE3088F
+STMicroelectronics-VL6180XV0NR_1-MFG
+
+
+0
+12
+12
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator

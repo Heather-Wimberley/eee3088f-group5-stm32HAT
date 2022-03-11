@@ -430,6 +430,14 @@
     [
       "6faa355f-9d08-4dfa-b3e6-58b461b2063e",
       "Outputs"
+    ],
+    [
+      "06d15bb2-99a3-48b6-a3af-0a13286b464c",
+      "Proximity_Sensor"
+    ],
+    [
+      "2382424b-0905-467b-a458-dad739d3178b",
+      "Temperature_Sensor"
     ]
   ],
   "text_variables": {}

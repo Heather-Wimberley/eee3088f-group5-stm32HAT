@@ -860,8 +860,8 @@
   )
 
   (no_connect (at 87.63 134.62) (uuid 42a81118-3b2b-47bd-bc1d-f00037264b7c))
-  (no_connect (at 87.63 129.54) (uuid 42a81118-3b2b-47bd-bc1d-f00037264b7c))
-  (no_connect (at 87.63 124.46) (uuid 42a81118-3b2b-47bd-bc1d-f00037264b7c))
+  (no_connect (at 87.63 129.54) (uuid 42a81118-3b2b-47bd-bc1d-f00037264b7d))
+  (no_connect (at 87.63 124.46) (uuid 42a81118-3b2b-47bd-bc1d-f00037264b7e))
 
   (wire (pts (xy 109.22 132.08) (xy 124.46 132.08))
     (stroke (width 0) (type default) (color 0 0 0 0))
