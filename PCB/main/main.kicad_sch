@@ -2353,6 +2353,24 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/7978c4a0-cf66-4cf0-8ba1-e6609225f7d5"
       (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/20ae985b-f506-4c7f-bbd0-ca82af5fc8be"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/30e7b450-0f99-418d-814a-5adedc29d58a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/4bba1f10-f329-402b-b25f-23ae4c366ec1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/696befb2-7d60-4905-b9dd-1aac79dcc867"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/fbf612a5-fb69-439d-b54c-bf534b2968b9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/88f2db88-b5a7-45dc-9349-3a45d58b176f"
+      (reference "BT?") (unit 1) (value "Battery") (footprint "")
+    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
       (reference "C1") (unit 1) (value "C") (footprint "")
     )
@@ -2365,8 +2383,35 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/27225655-0214-4927-8e1e-aaa024a14717"
       (reference "C4") (unit 1) (value "C") (footprint "")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/2552e438-1a54-4fe9-951a-5bcf84cd5d73"
+      (reference "C?") (unit 1) (value "22uF") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/d83cd49d-e94b-4eec-a26a-02bba2d334bf"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/e9898c26-15de-4d34-823c-4220a0b19610"
+      (reference "C?") (unit 1) (value "300pF") (footprint "")
+    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ff965ae9-0de4-48fa-a1a6-d1580e191547"
       (reference "D1") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/0ce17ae5-a8b8-4801-b8c8-e7a0d8be41a4"
+      (reference "D?") (unit 1) (value "3.3V") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/17b69721-766f-460f-883d-9cf5ca9b31a2"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/28fbd854-edbc-429b-92a2-d93706e7c837"
+      (reference "D?") (unit 1) (value "D_Schottky") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/696709c5-4b4c-4503-8f6d-dac7fba1bcbb"
+      (reference "D?") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/711e8266-1663-4d18-8cd6-839cb071c47e"
+      (reference "D?") (unit 1) (value "D_Schottky") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/e90f88a1-8861-43b5-8a73-0b86267bcbfc"
+      (reference "D?") (unit 1) (value "D_Zener") (footprint "")
     )
     (path "/ae3c331f-8808-430e-931c-7d9b2cc37f5b"
       (reference "J1") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
@@ -2379,6 +2424,9 @@
     )
     (path "/39549a53-fe72-4509-a12d-de170bbf0433"
       (reference "J4") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/ccd32485-4a57-4665-80d7-f7d7aa8b2d3f"
+      (reference "M?") (unit 1) (value "MPMOS") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/789fde59-6346-41c4-8bdd-f9aa5fd7f3db"
       (reference "R1") (unit 1) (value "R") (footprint "")
@@ -2398,6 +2446,30 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/49fad774-6882-493c-8759-60a62c481f37"
       (reference "R6") (unit 1) (value "R") (footprint "")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/067adaf0-402b-4fc7-bf4b-c328631d3fee"
+      (reference "R?") (unit 1) (value "806K") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/2b9b602a-d434-4a59-afb5-62b3b5ed3020"
+      (reference "R?") (unit 1) (value "27") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/4bbc8336-6854-43e4-93c8-8756ad46fa85"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/7be0b660-3515-41d0-a1cf-502da1e74f56"
+      (reference "R?") (unit 1) (value "1M") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/7c4f6b4b-43cd-4b6d-b92d-4ca770b84c02"
+      (reference "R?") (unit 1) (value "130") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/aaf9d5cd-0563-4ba1-9e90-2677bcd90b74"
+      (reference "R?") (unit 1) (value "12") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bfacfac8-c380-42cb-87f4-9eb1d81e10fd"
+      (reference "R?") (unit 1) (value "2M") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bef036b9-b0d2-4a8d-879b-bb5657efa5c7"
+      (reference "RV?") (unit 1) (value "50K") (footprint "")
+    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/cc508495-f8ae-452c-913c-83aef60d2608"
       (reference "U2") (unit 1) (value "CH340G") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
@@ -2406,6 +2478,12 @@
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/14a551c5-a8e7-46f5-bf14-1cd0eb0364bc"
       (reference "U?") (unit 1) (value "USB_Micro_B_Female_Connector") (footprint "Footprint_EEE3088F:MICRO-USB-SMD_U254-051T-4BH83-S1S")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/709e2cad-144c-4f3b-a5b3-594adebbf063"
+      (reference "U?") (unit 1) (value "LP2951-3.3_DIP") (footprint "Package_DIP:DIP-8_W7.62mm")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bad964ba-bde8-4884-9c08-8424d9be83ca"
+      (reference "U?") (unit 1) (value "LM324") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/38c1900a-5c63-45f1-9890-0b700a888ab6"
       (reference "X1") (unit 1) (value "12MHz_SMD_Crystal") (footprint "Footprint_EEE3088F:OSC-SMD_4P-L3.2-W2.5-BL")
