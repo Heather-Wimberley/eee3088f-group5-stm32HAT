@@ -5,10 +5,11 @@
   (paper "A3")
 
   (title_block
+    (title "Sensing Submodule")
     (date "2022-03-09")
     (rev "v1.0")
     (company "University of Cape Town")
-    (comment 4 "Authors: Heather WImberley")
+    (comment 4 "Authors: Kelvin Yankey")
   )
 
   (lib_symbols

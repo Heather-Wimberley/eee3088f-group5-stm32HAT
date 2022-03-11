@@ -5,10 +5,13 @@
   (paper "A4")
 
   (title_block
+    (title "Power Submodule")
     (date "2022-03-09")
     (rev "v1.0")
     (company "University of Cape Town")
-    (comment 4 "Authors: Heather WImberley")
+    (comment 1 "Be aware of current loading the volatge input protection circuit")
+    (comment 2 "Schottky diodes can be replaced with a p-channel mosfet configuration")
+    (comment 4 "Authors: Noah Havik")
   )
 
   (lib_symbols

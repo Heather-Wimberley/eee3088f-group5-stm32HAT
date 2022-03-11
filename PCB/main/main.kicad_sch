@@ -9,8 +9,7 @@
     (date "2022-03-09")
     (rev "v1.0")
     (company "University of Cape Town")
-    (comment 3 "Checked By: Heather Wimberley")
-    (comment 4 "Authors: Justin Pead; Heather Wimberley")
+    (comment 4 "Authors: Justin Pead; Heather Wimberley; Noah Havik; Kelvin Yankey")
   )
 
   (lib_symbols
