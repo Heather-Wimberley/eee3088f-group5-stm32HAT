@@ -1,10 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
+<<<<<<< HEAD
   (uuid 77dc2d06-f280-4482-84fb-091ff9baad12)
+=======
+  (uuid 08d1dac8-0d6e-4029-9a06-c8863d7fbd51)
+>>>>>>> c6156eceacbf1f2c75dffd5a68a8ac3b9d316b8e
 
   (paper "A4")
 
   (lib_symbols
+<<<<<<< HEAD
     (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -837,4 +842,8 @@
     (pin "8" (uuid 115619be-6ae5-4f62-989b-458eb60a472c))
     (pin "9" (uuid a97bf1ec-ce9f-432d-9b8e-65cfe8e18668))
   )
+=======
+  )
+
+>>>>>>> c6156eceacbf1f2c75dffd5a68a8ac3b9d316b8e
 )

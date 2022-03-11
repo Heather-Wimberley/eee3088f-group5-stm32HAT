@@ -1,10 +1,15 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
+<<<<<<< HEAD
   (uuid cb4bccd4-ab44-4360-b2fa-f9c9a6a44fe6)
+=======
+  (uuid 25b39db8-8576-4473-b331-b912323e85f4)
+>>>>>>> c6156eceacbf1f2c75dffd5a68a8ac3b9d316b8e
 
   (paper "A4")
 
   (lib_symbols
+<<<<<<< HEAD
     (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -827,4 +832,8 @@
     (pin "1" (uuid 6b023607-3fc7-45be-a24b-dacedc82ea8f))
     (pin "2" (uuid 205c0d66-d31f-4c7d-9632-2bd8ce8175b7))
   )
+=======
+  )
+
+>>>>>>> c6156eceacbf1f2c75dffd5a68a8ac3b9d316b8e
 )
