@@ -2449,7 +2449,7 @@
       (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/88f2db88-b5a7-45dc-9349-3a45d58b176f"
-      (reference "BT1") (unit 1) (value "Battery") (footprint "")
+      (reference "BT1") (unit 1) (value "18650") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/d83cd49d-e94b-4eec-a26a-02bba2d334bf"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "")
@@ -2476,22 +2476,22 @@
       (reference "C8") (unit 1) (value "4.7n") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/711e8266-1663-4d18-8cd6-839cb071c47e"
-      (reference "D1") (unit 1) (value "D_Schottky") (footprint "")
+      (reference "D1") (unit 1) (value "BAT54S") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/28fbd854-edbc-429b-92a2-d93706e7c837"
-      (reference "D2") (unit 1) (value "D_Schottky") (footprint "")
+      (reference "D2") (unit 1) (value "BAT54S") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/696709c5-4b4c-4503-8f6d-dac7fba1bcbb"
       (reference "D3") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/e90f88a1-8861-43b5-8a73-0b86267bcbfc"
-      (reference "D4") (unit 1) (value "D_Zener") (footprint "")
+      (reference "D4") (unit 1) (value "ZMM5V1-M") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/17b69721-766f-460f-883d-9cf5ca9b31a2"
       (reference "D5") (unit 1) (value "LED") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/0ce17ae5-a8b8-4801-b8c8-e7a0d8be41a4"
-      (reference "D6") (unit 1) (value "3.3V") (footprint "")
+      (reference "D6") (unit 1) (value "ZMM3V3-M") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ff965ae9-0de4-48fa-a1a6-d1580e191547"
       (reference "D7") (unit 1) (value "LED") (footprint "Footprint_EEE3088F:LED0603-R-RD")
@@ -2557,7 +2557,7 @@
       (reference "JP12") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/ccd32485-4a57-4665-80d7-f7d7aa8b2d3f"
-      (reference "M1") (unit 1) (value "MPMOS") (footprint "")
+      (reference "M1") (unit 1) (value "CJ2301 S1") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/aa5259b9-716e-4e8f-a329-37d75916b91c"
       (reference "Q1") (unit 1) (value "FDS6690A") (footprint "ON_Semi-CASE_751EB-0-0-*")
@@ -2629,7 +2629,7 @@
       (reference "RV1") (unit 1) (value "50K") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/709e2cad-144c-4f3b-a5b3-594adebbf063"
-      (reference "U1") (unit 1) (value "LP2951-3.3_DIP") (footprint "Package_DIP:DIP-8_W7.62mm")
+      (reference "U1") (unit 1) (value "LP2951-33DR") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bad964ba-bde8-4884-9c08-8424d9be83ca"
       (reference "U2") (unit 1) (value "LM324") (footprint "")
