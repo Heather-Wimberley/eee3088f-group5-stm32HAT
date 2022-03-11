@@ -557,10 +557,10 @@
   )
 
   (no_connect (at 133.35 66.04) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbc8))
-  (no_connect (at 130.81 66.04) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbc8))
-  (no_connect (at 133.35 50.8) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbc8))
-  (no_connect (at 135.89 50.8) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbc8))
-  (no_connect (at 138.43 50.8) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbc8))
+  (no_connect (at 130.81 66.04) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbc9))
+  (no_connect (at 133.35 50.8) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbca))
+  (no_connect (at 135.89 50.8) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbcb))
+  (no_connect (at 138.43 50.8) (uuid 62ef7521-8200-4095-88b6-a6895ec1dbcc))
 
   (bus_entry (at 152.4 140.97) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))

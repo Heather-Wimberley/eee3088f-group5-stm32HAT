@@ -178,6 +178,15 @@
     (uuid e2aa3dc5-311b-4d60-89c0-da48f449b919)
   )
 
+  (text "Digital Sensor" (at 271.145 81.28 0)
+    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
+    (uuid 8d57021b-17d7-425a-b48c-37252c14cee8)
+  )
+  (text "Analogue Sensor" (at 270.51 194.945 0)
+    (effects (font (size 3 3) (thickness 0.6) bold) (justify left bottom))
+    (uuid bcf4428f-3b5c-443b-b934-44196fa75e76)
+  )
+
   (global_label "PB8" (shape input) (at 185.42 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 047d44c2-8666-4f89-9ff5-4254249f7fe2)
