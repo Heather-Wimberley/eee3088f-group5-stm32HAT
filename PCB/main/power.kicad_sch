@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2022-03-09")
+    (rev "v1.0")
+    (company "University of Cape Town")
+    (comment 4 "Authors: Heather WImberley")
+  )
+
   (lib_symbols
     (symbol "Device:Battery" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "BT" (id 0) (at 2.54 2.54 0)
