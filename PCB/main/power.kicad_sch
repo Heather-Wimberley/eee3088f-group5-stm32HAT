@@ -1400,7 +1400,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 07aff76c-05c2-42f3-90c2-90a72e81f21c)
   )
-  (hierarchical_label "+3.3V" (shape input) (at 234.95 132.08 0)
+  (hierarchical_label "+3.3V" (shape output) (at 234.95 132.08 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1510e083-b4a1-4260-9ed4-08cfece9ad3b)
   )
