@@ -1733,7 +1733,7 @@
     (property "Value" "Conn_01x33_Female" (id 1) (at 239.395 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x33_P2.54mm_Vertical" (id 2) (at 224.155 64.77 0)
+    (property "Footprint" "" (id 2) (at 224.155 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 224.155 64.77 0)
@@ -1872,7 +1872,7 @@
     (property "Value" "Conn_01x33_Female" (id 1) (at 259.715 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x33_P2.54mm_Vertical" (id 2) (at 243.205 64.77 0)
+    (property "Footprint" "" (id 2) (at 243.205 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 243.205 64.77 0)
@@ -2179,34 +2179,34 @@
       (reference "BT1") (unit 1) (value "18650") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/d83cd49d-e94b-4eec-a26a-02bba2d334bf"
-      (reference "C1") (unit 1) (value "0.1uF") (footprint "")
+      (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/2552e438-1a54-4fe9-951a-5bcf84cd5d73"
-      (reference "C2") (unit 1) (value "22uF") (footprint "")
+      (reference "C2") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/e9898c26-15de-4d34-823c-4220a0b19610"
-      (reference "C3") (unit 1) (value "300pF") (footprint "")
+      (reference "C3") (unit 1) (value "300pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0bb047bb-c679-4bfc-b861-9203dafc1b5e"
-      (reference "C4") (unit 1) (value "33p") (footprint "Footprint_EEE3088F:C0402")
+      (reference "C4") (unit 1) (value "33pF") (footprint "Footprint_EEE3088F:C0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
-      (reference "C5") (unit 1) (value "33p") (footprint "Footprint_EEE3088F:C0402")
+      (reference "C5") (unit 1) (value "33pF") (footprint "Footprint_EEE3088F:C0402")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/27225655-0214-4927-8e1e-aaa024a14717"
-      (reference "C6") (unit 1) (value "0.1u") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
+      (reference "C6") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/2fbcdbe1-f268-482d-b0b6-3bb23997a94a"
-      (reference "C7") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_01005_0402Metric")
+      (reference "C7") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/d3280556-8cfd-4b8a-bfa8-7918e64cd828"
-      (reference "C8") (unit 1) (value "4.7n") (footprint "")
+      (reference "C8") (unit 1) (value "4.7nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/711e8266-1663-4d18-8cd6-839cb071c47e"
-      (reference "D1") (unit 1) (value "BAT54S") (footprint "")
+      (reference "D1") (unit 1) (value "BAT54S") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/28fbd854-edbc-429b-92a2-d93706e7c837"
-      (reference "D2") (unit 1) (value "BAT54S") (footprint "")
+      (reference "D2") (unit 1) (value "BAT54S") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/696709c5-4b4c-4503-8f6d-dac7fba1bcbb"
       (reference "D3") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
@@ -2218,28 +2218,28 @@
       (reference "D5") (unit 1) (value "ZMM3V3-M") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/17b69721-766f-460f-883d-9cf5ca9b31a2"
-      (reference "D6") (unit 1) (value "LED") (footprint "")
+      (reference "D6") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ff965ae9-0de4-48fa-a1a6-d1580e191547"
-      (reference "D7") (unit 1) (value "LED") (footprint "Footprint_EEE3088F:LED0603-R-RD")
+      (reference "D7") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/d3fd1b21-ba56-4c54-88a7-93a3dc81ccb8"
       (reference "D8") (unit 1) (value "BZT52C3V0") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/e6b064da-4320-4b13-b142-252ff9fe311a"
-      (reference "D9") (unit 1) (value "LED") (footprint "")
+      (reference "D9") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/468da12d-cf3e-4491-80c7-c5f1fa8714ef"
-      (reference "D10") (unit 1) (value "LED") (footprint "")
+      (reference "D10") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/ae3c331f-8808-430e-931c-7d9b2cc37f5b"
       (reference "J1") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
     )
     (path "/94d07718-2fcc-40a0-ad0e-c4bb67bc804a"
-      (reference "J2") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x33_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "Conn_01x33_Female") (footprint "")
     )
     (path "/c7050574-27e1-4a80-9dab-24805663409e"
-      (reference "J3") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x33_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Conn_01x33_Female") (footprint "")
     )
     (path "/39549a53-fe72-4509-a12d-de170bbf0433"
       (reference "J4") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
@@ -2248,16 +2248,16 @@
       (reference "J5") (unit 1) (value "Conn_01x03_Female") (footprint "")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/7d10e57a-36e7-414f-a290-1d47bd8fe17c"
-      (reference "JP2") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP2") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/aa14fdb7-f0bd-4974-817a-eda7e91e5eec"
-      (reference "JP3") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP3") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/17f9d125-e83a-4f89-b541-94449aee0f57"
-      (reference "JP4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP4") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/d4f98cd9-5dd3-40c0-835e-bdbe33afa650"
-      (reference "JP5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/3c0c11ee-7f96-44c7-b5f8-984994daa1d5"
       (reference "JP7") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
@@ -2275,31 +2275,31 @@
       (reference "JP12") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/5a6be6a3-f5c4-4588-90de-f3e15e2ac316"
-      (reference "JP13") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP13") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/3aaf1361-7b71-452c-aa61-68599d28c9b0"
-      (reference "JP14") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP14") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/e18cc07c-b550-4ab0-b115-1a3b429babd2"
-      (reference "JP15") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP15") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/4d425e25-5f7f-4d61-9ba6-2a88988a41db"
-      (reference "JP16") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP16") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/021ed89a-ca5a-454a-8f0d-f9d80781599b"
-      (reference "JP17") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP17") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/6901b5a5-4d9f-486f-b29a-2311708c7746"
-      (reference "JP18") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP18") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/06f39ede-c791-4795-ad3a-8bb601808b3b"
-      (reference "JP19") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
+      (reference "JP19") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/ccd32485-4a57-4665-80d7-f7d7aa8b2d3f"
       (reference "M1") (unit 1) (value "CJ2301 S1") (footprint "")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/d25339d0-78bf-4a08-a79a-1db02c10ad49"
-      (reference "Q3") (unit 1) (value "FDS6690A") (footprint "ON_Semi-CASE_751EB-0-0-*")
+      (reference "Q3") (unit 1) (value "FDS6690A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bfacfac8-c380-42cb-87f4-9eb1d81e10fd"
       (reference "R1") (unit 1) (value "2M") (footprint "")
