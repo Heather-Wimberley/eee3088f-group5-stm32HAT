@@ -2302,25 +2302,25 @@
       (reference "Q3") (unit 1) (value "FDS6690A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bfacfac8-c380-42cb-87f4-9eb1d81e10fd"
-      (reference "R1") (unit 1) (value "2M") (footprint "")
+      (reference "R1") (unit 1) (value "2M") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/067adaf0-402b-4fc7-bf4b-c328631d3fee"
-      (reference "R2") (unit 1) (value "806K") (footprint "")
+      (reference "R2") (unit 1) (value "806K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/7c4f6b4b-43cd-4b6d-b92d-4ca770b84c02"
-      (reference "R3") (unit 1) (value "130") (footprint "")
+      (reference "R3") (unit 1) (value "130") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/2b9b602a-d434-4a59-afb5-62b3b5ed3020"
-      (reference "R4") (unit 1) (value "27") (footprint "")
+      (reference "R4") (unit 1) (value "27") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/7be0b660-3515-41d0-a1cf-502da1e74f56"
-      (reference "R5") (unit 1) (value "1M") (footprint "")
+      (reference "R5") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/4bbc8336-6854-43e4-93c8-8756ad46fa85"
-      (reference "R6") (unit 1) (value "1k") (footprint "")
+      (reference "R6") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/aaf9d5cd-0563-4ba1-9e90-2677bcd90b74"
-      (reference "R7") (unit 1) (value "12") (footprint "")
+      (reference "R7") (unit 1) (value "12") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/8e904686-ce34-474a-ab32-7bf99fa061c1"
       (reference "R8") (unit 1) (value "2.7k") (footprint "Footprint_EEE3088F:R0603")
@@ -2359,7 +2359,7 @@
       (reference "RV1") (unit 1) (value "50K") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/709e2cad-144c-4f3b-a5b3-594adebbf063"
-      (reference "U1") (unit 1) (value "LP2951-33DR") (footprint "Package_DIP:DIP-8_W7.62mm")
+      (reference "U1") (unit 1) (value "LP2951-33DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bad964ba-bde8-4884-9c08-8424d9be83ca"
       (reference "U2") (unit 1) (value "LM324") (footprint "")
