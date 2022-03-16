@@ -2401,7 +2401,7 @@
       (reference "U3") (unit 1) (value "CH340G") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/14a551c5-a8e7-46f5-bf14-1cd0eb0364bc"
-      (reference "U4") (unit 1) (value "USB_Micro_B") (footprint "Footprint_EEE3088F:MICRO-USB-SMD_U254-051T-4BH83-S1S")
+      (reference "U4") (unit 1) (value "USB_Micro_B") (footprint "Footprint_EEE3088F:C404969_Micro_USB")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/2fbf5a94-0033-4cc7-b46e-78bb9dcc77df"
       (reference "U5") (unit 1) (value "AT24C256C-SSHL-T") (footprint "Footprint_EEE3088F:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL")

@@ -1,4 +1,4 @@
-20127523938517226
+20129171126379952
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52254,6 +52254,13 @@ C0402
 0
 2
 2
+Footprint_EEE3088F
+C404969_Micro_USB
+
+
+0
+0
+0
 Footprint_EEE3088F
 LED0603-R-RD
 

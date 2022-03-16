@@ -1339,7 +1339,7 @@
     (uuid 14a551c5-a8e7-46f5-bf14-1cd0eb0364bc)
     (property "Reference" "U4" (id 0) (at 140.97 33.181 0))
     (property "Value" "USB_Micro_B" (id 1) (at 140.97 35.7179 0))
-    (property "Footprint" "Footprint_EEE3088F:MICRO-USB-SMD_U254-051T-4BH83-S1S" (id 2) (at 139.7 43.18 0)
+    (property "Footprint" "Footprint_EEE3088F:C404969_Micro_USB" (id 2) (at 139.7 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 139.7 43.18 0)
