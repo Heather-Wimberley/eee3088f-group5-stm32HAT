@@ -1,4 +1,4 @@
-20129171126379952
+20135760966900912
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52248,6 +52248,13 @@ emi filter
 5
 5
 Footprint_EEE3088F
+18650_Holder
+
+
+0
+2
+2
+Footprint_EEE3088F
 C0402
 
 
@@ -52259,10 +52266,24 @@ C404969_Micro_USB
 
 
 0
-0
-0
+11
+6
 Footprint_EEE3088F
 LED0603-R-RD
+
+
+0
+2
+2
+Footprint_EEE3088F
+LGA-12_L4.8-W2.8-P0.75-BL
+
+
+0
+12
+12
+Footprint_EEE3088F
+LL-34_L3.5-W1.5-RD
 
 
 0
@@ -52317,6 +52338,13 @@ STMicroelectronics-VL6180XV0NR_1-MFG
 0
 12
 12
+Footprint_EEE3088F
+VG039NCHXTB503
+
+
+0
+0
+0
 Fuse
 Fuse_0402_1005Metric
 Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
