@@ -2232,6 +2232,9 @@
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/468da12d-cf3e-4491-80c7-c5f1fa8714ef"
       (reference "D10") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/3f881838-2d91-44d0-9264-bfaaaf0089bb"
+      (reference "D11") (unit 1) (value "DIODE") (footprint "Diode_SMD:D_SMA")
+    )
     (path "/ae3c331f-8808-430e-931c-7d9b2cc37f5b"
       (reference "J1") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
     )
