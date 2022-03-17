@@ -2090,6 +2090,9 @@
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/cf650523-2d02-4fa7-9e27-0b9ea6922f75"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/e47385a9-cc56-466b-b7b8-d3742eb7f002"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/0466a457-3fe7-4a1b-83d2-85709218723a"
       (reference "#PWR01") (unit 1) (value "VDD") (footprint "")
     )
@@ -2241,13 +2244,13 @@
       (reference "D2") (unit 1) (value "ZMM5V1-M") (footprint "Footprint_EEE3088F:LL-34_L3.5-W1.5-RD")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/a13e30bb-75d7-4ea0-90be-8bb68bf7e98c"
-      (reference "D3") (unit 1) (value "DIODE-FIIXIXINXIXNVX") (footprint "")
+      (reference "D3") (unit 1) (value "DIODE") (footprint "Footprint_EEE3088F:DO-214AC_L4.3-W2.7-LS5.3-RD")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/fe596695-6d84-40dd-b76e-1fcf5d239d38"
       (reference "D4") (unit 1) (value "ZMM4V7-M") (footprint "Footprint_EEE3088F:LL-34_L3.5-W1.5-RD")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/028fa86a-5859-41be-bd1f-58207503dfac"
-      (reference "D5") (unit 1) (value "DIODE") (footprint "")
+      (reference "D5") (unit 1) (value "DIODE") (footprint "Footprint_EEE3088F:DO-214AC_L4.3-W2.7-LS5.3-RD")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ff965ae9-0de4-48fa-a1a6-d1580e191547"
       (reference "D8") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -2313,7 +2316,7 @@
       (reference "JP14") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/e5cecde9-1560-44dd-a37a-789b21b7d168"
-      (reference "K1") (unit 1) (value "ADW11") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+      (reference "K1") (unit 1) (value "ADW11") (footprint "Relay_THT:Relay_SPST_Omron-G5Q-1A")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/d25339d0-78bf-4a08-a79a-1db02c10ad49"
       (reference "Q1") (unit 1) (value "FDS6690A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
@@ -2377,6 +2380,12 @@
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bef036b9-b0d2-4a8d-879b-bb5657efa5c7"
       (reference "RV1") (unit 1) (value "50K") (footprint "Footprint_EEE3088F:VG039NCHXTB503")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/16db0526-cb59-4a16-a259-3f46f99b23cd"
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0f2b73e9-5910-48b9-bb22-fcd1e65b4595"
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/709e2cad-144c-4f3b-a5b3-594adebbf063"
       (reference "U1") (unit 1) (value "LP2951-33DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
