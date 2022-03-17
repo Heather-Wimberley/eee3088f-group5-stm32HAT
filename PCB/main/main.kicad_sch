@@ -2205,16 +2205,16 @@
       (reference "C2") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/e9898c26-15de-4d34-823c-4220a0b19610"
-      (reference "C3") (unit 1) (value "300pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C3") (unit 1) (value "330pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/0bb047bb-c679-4bfc-b861-9203dafc1b5e"
-      (reference "C4") (unit 1) (value "33pF") (footprint "Footprint_EEE3088F:C0402")
+      (reference "C4") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/4e698c98-4951-4735-94e2-e2122b2f5728"
       (reference "C5") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c82e8570-bed9-4be1-a316-8b90e10c0a78"
-      (reference "C6") (unit 1) (value "33pF") (footprint "Footprint_EEE3088F:C0402")
+      (reference "C6") (unit 1) (value "33pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/27225655-0214-4927-8e1e-aaa024a14717"
       (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -2229,16 +2229,16 @@
       (reference "C10") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/037033ab-f3ec-48c3-b7df-194d3911c099"
-      (reference "C11") (unit 1) (value "100uF") (footprint "")
+      (reference "C11") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/711e8266-1663-4d18-8cd6-839cb071c47e"
       (reference "D1") (unit 1) (value "BAT54S") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/5097da22-bb79-4140-abcd-4f08d9aae09c"
-      (reference "D2") (unit 1) (value "ZMM5V1-M") (footprint "")
+      (reference "D2") (unit 1) (value "ZMM5V1-M") (footprint "Footprint_EEE3088F:LL-34_L3.5-W1.5-RD")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/a13e30bb-75d7-4ea0-90be-8bb68bf7e98c"
-      (reference "D3") (unit 1) (value "DIODE") (footprint "Diode_SMD:D_SMA")
+      (reference "D3") (unit 1) (value "DIODE-FIIXIXINXIXNVX") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ff965ae9-0de4-48fa-a1a6-d1580e191547"
       (reference "D8") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -2307,28 +2307,28 @@
       (reference "Q1") (unit 1) (value "FDS6690A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/063cac24-4963-4cd8-9169-c4219c5bcf38"
-      (reference "Q2") (unit 1) (value "Q_PMOS_SGD") (footprint "")
+      (reference "Q2") (unit 1) (value "Q_PMOS_SGD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bfacfac8-c380-42cb-87f4-9eb1d81e10fd"
-      (reference "R1") (unit 1) (value "2M") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R1") (unit 1) (value "2M") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/067adaf0-402b-4fc7-bf4b-c328631d3fee"
       (reference "R2") (unit 1) (value "806K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/8e904686-ce34-474a-ab32-7bf99fa061c1"
-      (reference "R8") (unit 1) (value "2.7k") (footprint "Footprint_EEE3088F:R0603")
+      (reference "R8") (unit 1) (value "2.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/2fe59ba4-8573-4390-bd74-2727dc8075b1"
-      (reference "R9") (unit 1) (value "4.7k") (footprint "Footprint_EEE3088F:R0603")
+      (reference "R9") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/789fde59-6346-41c4-8bdd-f9aa5fd7f3db"
-      (reference "R10") (unit 1) (value "82") (footprint "Footprint_EEE3088F:R0603")
+      (reference "R10") (unit 1) (value "82") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/4a562162-6334-45a5-949c-90f35b91184b"
-      (reference "R11") (unit 1) (value "10k") (footprint "Footprint_EEE3088F:R0402")
+      (reference "R11") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/49fad774-6882-493c-8759-60a62c481f37"
-      (reference "R12") (unit 1) (value "10k") (footprint "Footprint_EEE3088F:R0402")
+      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/0ff76958-c2fc-4d4d-9b8a-73e5e0591969"
       (reference "R13") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2349,7 +2349,7 @@
       (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/c1eb9642-7709-463e-814b-c754181c7a85"
-      (reference "R19") (unit 1) (value "100") (footprint "")
+      (reference "R19") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bef036b9-b0d2-4a8d-879b-bb5657efa5c7"
       (reference "RV1") (unit 1) (value "50K") (footprint "Footprint_EEE3088F:VG039NCHXTB503")
