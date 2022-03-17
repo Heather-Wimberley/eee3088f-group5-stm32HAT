@@ -2094,9 +2094,6 @@
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/368b2e9d-568f-41e4-a27e-2cbe646fa230"
       (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/06d15bb2-99a3-48b6-a3af-0a13286b464c/f687b116-db59-4450-90c8-e0ab1d925da3"
-      (reference "#FLG05") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/6c361fbc-1346-4e93-8d85-c4adbbdd47e1"
       (reference "#FLG06") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -2154,6 +2151,9 @@
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/31d1aea0-d65d-4fa0-b738-d30ae1d6f2da"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/6cd5f128-16ae-4bd7-9067-a90fe32a7eec"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/06849207-00de-45c6-9c74-291ecff56d6c"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
@@ -2202,9 +2202,6 @@
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/a359654d-6cbd-4893-a79c-1858bf3a363c"
       (reference "#PWR036") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/6cd5f128-16ae-4bd7-9067-a90fe32a7eec"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/88f2db88-b5a7-45dc-9349-3a45d58b176f"
       (reference "BT1") (unit 1) (value "18650") (footprint "Footprint_EEE3088F:18650_Holder")
     )
@@ -2238,6 +2235,9 @@
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/711e8266-1663-4d18-8cd6-839cb071c47e"
       (reference "D1") (unit 1) (value "BAT54S") (footprint "Diode_SMD:D_SOT-23_ANK")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/5097da22-bb79-4140-abcd-4f08d9aae09c"
+      (reference "D2") (unit 1) (value "ZMM5V1-M") (footprint "")
+    )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/a13e30bb-75d7-4ea0-90be-8bb68bf7e98c"
       (reference "D3") (unit 1) (value "DIODE") (footprint "Diode_SMD:D_SMA")
     )
@@ -2264,9 +2264,6 @@
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/468da12d-cf3e-4491-80c7-c5f1fa8714ef"
       (reference "D11") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
-    )
-    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/5097da22-bb79-4140-abcd-4f08d9aae09c"
-      (reference "D?") (unit 1) (value "ZMM5V1-M") (footprint "")
     )
     (path "/fd8f29e5-8b29-4275-845d-d9e8970e777b"
       (reference "J1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
@@ -2329,10 +2326,10 @@
       (reference "Q1") (unit 1) (value "FDS6690A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/063cac24-4963-4cd8-9169-c4219c5bcf38"
-      (reference "Q?") (unit 1) (value "Q_PMOS_SGD") (footprint "")
+      (reference "Q2") (unit 1) (value "Q_PMOS_SGD") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/893a13d3-8bde-41cc-ba67-b16a83a525cc"
-      (reference "Q?") (unit 1) (value "Q_PMOS_GSD") (footprint "")
+      (reference "Q3") (unit 1) (value "Q_PMOS_GSD") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bfacfac8-c380-42cb-87f4-9eb1d81e10fd"
       (reference "R1") (unit 1) (value "2M") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -2389,7 +2386,7 @@
       (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/c1eb9642-7709-463e-814b-c754181c7a85"
-      (reference "R?") (unit 1) (value "100") (footprint "")
+      (reference "R19") (unit 1) (value "100") (footprint "")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bef036b9-b0d2-4a8d-879b-bb5657efa5c7"
       (reference "RV1") (unit 1) (value "50K") (footprint "Footprint_EEE3088F:VG039NCHXTB503")
