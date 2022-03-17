@@ -776,7 +776,7 @@
     (property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS" (id 5) (at 186.69 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLC Part #" " C25744 " (id 6) (at 186.69 86.36 0)
+    (property "JLC Part #" "C25744" (id 6) (at 186.69 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Price" "0.0007" (id 7) (at 186.69 86.36 0)
