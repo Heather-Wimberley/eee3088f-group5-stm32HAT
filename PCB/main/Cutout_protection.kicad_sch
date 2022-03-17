@@ -1,0 +1,23 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 1e8bd673-5928-4440-961f-4c8020560e12)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Battery_INP" (shape output) (at 95.885 71.755 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 11a23551-ad3d-473d-af35-2464df83fb30)
+  )
+  (hierarchical_label "Relay_OUT" (shape output) (at 195.58 95.25 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 40365e1f-bc37-4b3d-8233-e4bb1875be75)
+  )
+  (hierarchical_label "Relay_INP" (shape output) (at 195.58 71.755 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8a97f044-0f79-43a5-bff7-68f813c743e6)
+  )
+)
