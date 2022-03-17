@@ -2195,6 +2195,9 @@
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/94b9bf77-5b0c-463a-b4fc-482db6e0d423"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/54af2057-9ffa-487b-84da-b1e4c825832c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/88f2db88-b5a7-45dc-9349-3a45d58b176f"
       (reference "BT1") (unit 1) (value "18650") (footprint "Footprint_EEE3088F:18650_Holder")
     )
@@ -2252,6 +2255,12 @@
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/468da12d-cf3e-4491-80c7-c5f1fa8714ef"
       (reference "D11") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/028fa86a-5859-41be-bd1f-58207503dfac"
+      (reference "D?") (unit 1) (value "DIODE") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/fe596695-6d84-40dd-b76e-1fcf5d239d38"
+      (reference "D?") (unit 1) (value "ZMM4V7-M") (footprint "")
+    )
     (path "/fd8f29e5-8b29-4275-845d-d9e8970e777b"
       (reference "J1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
     )
@@ -2303,11 +2312,17 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/e8f06482-fb02-46ed-ad89-dea83a68a6e5"
       (reference "JP14") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/e5cecde9-1560-44dd-a37a-789b21b7d168"
+      (reference "K?") (unit 1) (value "ADW11") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+    )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/d25339d0-78bf-4a08-a79a-1db02c10ad49"
       (reference "Q1") (unit 1) (value "FDS6690A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/063cac24-4963-4cd8-9169-c4219c5bcf38"
       (reference "Q2") (unit 1) (value "Q_PMOS_SGD") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/43d9526a-f36c-41ce-8c7e-3e6956756a3f"
+      (reference "Q?") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bfacfac8-c380-42cb-87f4-9eb1d81e10fd"
       (reference "R1") (unit 1) (value "2M") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2351,6 +2366,15 @@
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/c1eb9642-7709-463e-814b-c754181c7a85"
       (reference "R19") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/43729c41-452a-4601-b7e4-6f7f1f23761d"
+      (reference "R?") (unit 1) (value "150") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/723d6057-cb79-4afb-bbc5-b2d705a0dd24"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/bb7e4f65-7f78-41ce-8d52-8764303c47f1"
+      (reference "R?") (unit 1) (value "100k") (footprint "")
+    )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/bef036b9-b0d2-4a8d-879b-bb5657efa5c7"
       (reference "RV1") (unit 1) (value "50K") (footprint "Footprint_EEE3088F:VG039NCHXTB503")
     )
@@ -2374,6 +2398,9 @@
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/6a98701e-1460-41fa-8537-1a20e1455c63"
       (reference "U8") (unit 1) (value "AMS1117") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+    )
+    (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/e1226b8f-6d92-4c1c-8ffa-0fc69da147ae"
+      (reference "U?") (unit 1) (value "OPAMP") (footprint "")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/38c1900a-5c63-45f1-9890-0b700a888ab6"
       (reference "X1") (unit 1) (value "12MHz Crystal") (footprint "Footprint_EEE3088F:OSC-SMD_4P-L3.2-W2.5-BL")
