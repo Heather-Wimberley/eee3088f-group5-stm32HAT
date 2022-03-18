@@ -2081,9 +2081,6 @@
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/cb171c41-8ffe-4f79-a5de-08a712fe3fbf"
       (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/17fa482e-38d3-46ed-9971-5f30327baab4"
-      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/e47385a9-cc56-466b-b7b8-d3742eb7f002"
       (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -2310,13 +2307,13 @@
       (reference "JP10") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/e5cecde9-1560-44dd-a37a-789b21b7d168"
-      (reference "K1") (unit 1) (value "ADW11") (footprint "Relay_THT:Relay_SPST_Omron-G5Q-1A")
+      (reference "K1") (unit 1) (value "G5NB") (footprint "Relay_THT:Relay_SPST_Omron-G5Q-1A")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/063cac24-4963-4cd8-9169-c4219c5bcf38"
       (reference "Q1") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/43d9526a-f36c-41ce-8c7e-3e6956756a3f"
-      (reference "Q2") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/d25339d0-78bf-4a08-a79a-1db02c10ad49"
       (reference "Q3") (unit 1) (value "FDS6690A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
