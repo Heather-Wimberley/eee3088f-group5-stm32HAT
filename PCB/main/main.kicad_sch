@@ -1944,7 +1944,7 @@
     (property "Value" "Conn_01x03_Female" (id 1) (at 113.7412 34.7222 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical" (id 2) (at 113.03 33.02 0)
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" (id 2) (at 113.03 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 113.03 33.02 0)
@@ -2265,7 +2265,7 @@
       (reference "D9") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/fd8f29e5-8b29-4275-845d-d9e8970e777b"
-      (reference "J1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical")
     )
     (path "/ae3c331f-8808-430e-931c-7d9b2cc37f5b"
       (reference "J2") (unit 1) (value "Conn_01x33_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x33_P2.54mm_Vertical")
