@@ -923,7 +923,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 213.995 32.385 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6c361fbc-1346-4e93-8d85-c4adbbdd47e1)
-    (property "Reference" "#FLG06" (id 0) (at 213.995 30.48 0)
+    (property "Reference" "#FLG05" (id 0) (at 213.995 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 213.995 28.8092 0))
