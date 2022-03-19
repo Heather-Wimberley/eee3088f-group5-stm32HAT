@@ -1276,7 +1276,7 @@
     (in_bom yes) (on_board yes)
     (uuid 16db0526-cb59-4a16-a259-3f46f99b23cd)
     (property "Reference" "TP3" (id 0) (at 139.7 103.505 90))
-    (property "Value" "TestPoint" (id 1) (at 139.065 105.41 90))
+    (property "Value" "UsbOn" (id 1) (at 139.065 105.41 90))
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 149.225 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )

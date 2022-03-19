@@ -856,7 +856,7 @@
   )
 
   (no_connect (at 81.28 147.955) (uuid 74a55ca7-f3fc-43d2-b8f8-ed4210776e8b))
-  (no_connect (at 81.28 150.495) (uuid 74a55ca7-f3fc-43d2-b8f8-ed4210776e8b))
+  (no_connect (at 81.28 150.495) (uuid 74a55ca7-f3fc-43d2-b8f8-ed4210776e8c))
 
   (wire (pts (xy 151.765 62.865) (xy 158.115 62.865))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2532,22 +2532,22 @@
       (reference "RV1") (unit 1) (value "50K") (footprint "Footprint_EEE3088F:VG039NCHXTB503")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/9cd193e3-f92e-4c26-b978-d67e0f93fb4c"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP1") (unit 1) (value "BatPP") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/0e0cd3f9-9e59-4187-9e69-2f18dd8368cc"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP2") (unit 1) (value "3.3V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/16db0526-cb59-4a16-a259-3f46f99b23cd"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP3") (unit 1) (value "UsbOn") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/da6c8b36-2043-4680-9089-45feba0c060d/a73fdb88-5cf1-4d10-95af-bbefd3332968"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP4") (unit 1) (value "CutP") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/84ad40ad-aba6-4811-933c-ee3616962eb3"
-      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP5") (unit 1) (value "TempVcc") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/e3adbf01-8b14-4b39-a3af-b03a85547ed6"
-      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP6") (unit 1) (value "TempOut") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/709e2cad-144c-4f3b-a5b3-594adebbf063"
       (reference "U1") (unit 1) (value "LP2951-33DR") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
