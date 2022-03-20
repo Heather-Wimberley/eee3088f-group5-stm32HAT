@@ -1,7 +1,12 @@
 {
   "board": {
+<<<<<<< HEAD:PCB/main/main.kicad_prl
     "active_layer": 0,
     "active_layer_preset": "",
+=======
+    "active_layer": 36,
+    "active_layer_preset": "All Layers",
+>>>>>>> 76a74af6ec8ba65b94a81bbbc75524ee8afc58a6:PCB/main.kicad_prl
     "auto_track_width": false,
     "hidden_nets": [],
     "high_contrast_mode": 0,
