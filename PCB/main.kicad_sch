@@ -2330,9 +2330,6 @@
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/8c27fdec-6047-4184-95ce-687f78af8475"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/ded0a55b-1073-495b-813b-b8779f1b8ce2"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/f74730f1-acfb-4933-8c69-3a8e43df139f"
       (reference "#PWR029") (unit 1) (value "GND") (footprint "")
     )
@@ -2420,6 +2417,9 @@
     (path "/cf6c12a4-3d95-473d-bafe-8be3892a84e9/2382424b-0905-467b-a458-dad739d3178b/468da12d-cf3e-4491-80c7-c5f1fa8714ef"
       (reference "D9") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
+    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/c6a4d814-3443-4e90-8c83-4f44c1c33a30"
+      (reference "D?") (unit 1) (value "DIODE") (footprint "Footprint_EEE3088F:DO-214AC_L4.3-W2.7-LS5.3-RD")
+    )
     (path "/3e184d1d-0ed1-4966-bad3-a99086b9fdf1"
       (reference "J1") (unit 1) (value "Conn_01x10_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
@@ -2486,14 +2486,8 @@
     (path "/d15c8919-7ccc-44b2-8fc4-b04c1b47b6fa/067adaf0-402b-4fc7-bf4b-c328631d3fee"
       (reference "R3") (unit 1) (value "806K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/8e904686-ce34-474a-ab32-7bf99fa061c1"
-      (reference "R4") (unit 1) (value "2.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/2fe59ba4-8573-4390-bd74-2727dc8075b1"
-      (reference "R5") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/789fde59-6346-41c4-8bdd-f9aa5fd7f3db"
-      (reference "R6") (unit 1) (value "82") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R6") (unit 1) (value "150") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/59b42903-2dc7-4011-ab5b-d7b81bd233c3/4a562162-6334-45a5-949c-90f35b91184b"
       (reference "R7") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
