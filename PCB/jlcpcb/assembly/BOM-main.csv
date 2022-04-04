@@ -1,0 +1,235 @@
+Comment,Designator,Footprint,LCSC
+0.1uF,C1,C_0402_1005Metric,"(kicad_pcb (version 20211014) (generator pcbnew)
+
+(layers
+  (0 ""F.Cu"" signal)
+  (31 ""B.Cu"" signal)
+  (32 ""B.Adhes"" user ""B.Adhesive"")
+  (33 ""F.Adhes"" user ""F.Adhesive"")
+  (34 ""B.Paste"" user)
+  (35 ""F.Paste"" user)
+  (36 ""B.SilkS"" user ""B.Silkscreen"")
+  (37 ""F.SilkS"" user ""F.Silkscreen"")
+  (38 ""B.Mask"" user)
+  (39 ""F.Mask"" user)
+  (40 ""Dwgs.User"" user ""User.Drawings"")
+  (41 ""Cmts.User"" user ""User.Comments"")
+  (42 ""Eco1.User"" user ""User.Eco1"")
+  (43 ""Eco2.User"" user ""User.Eco2"")
+  (44 ""Edge.Cuts"" user)
+  (45 ""Margin"" user)
+  (46 ""B.CrtYd"" user ""B.Courtyard"")
+  (47 ""F.CrtYd"" user ""F.Courtyard"")
+  (48 ""B.Fab"" user)
+  (49 ""F.Fab"" user)
+  (50 ""User.1"" user)
+  (51 ""User.2"" user)
+  (52 ""User.3"" user)
+  (53 ""User.4"" user)
+  (54 ""User.5"" user)
+  (55 ""User.6"" user)
+  (56 ""User.7"" user)
+  (57 ""User.8"" user)
+  (58 ""User.9"" user)
+)
+
+(net 0 """")
+(net 1 ""GND"")
+(net 2 ""/VBAT"")
+(net 3 ""/PC13"")
+(net 4 ""/PC14"")
+(net 5 ""/PC15"")
+(net 6 ""/PF0"")
+(net 7 ""/PF1"")
+(net 8 ""/NRST"")
+(net 9 ""/PC0"")
+(net 10 ""/PC1"")
+(net 11 ""/PC2"")
+(net 12 ""/PC3"")
+(net 13 ""/PA0"")
+(net 14 ""/PA1"")
+(net 15 ""/PA2"")
+(net 16 ""/PA3"")
+(net 17 ""/PF4"")
+(net 18 ""/PF5"")
+(net 19 ""/PA4"")
+(net 20 ""/PA5"")
+(net 21 ""/PA6"")
+(net 22 ""/PA7"")
+(net 23 ""/PC4"")
+(net 24 ""/PC5"")
+(net 25 ""/PB0"")
+(net 26 ""/PB1"")
+(net 27 ""/PB2"")
+(net 28 ""/PB10"")
+(net 29 ""/PB11"")
+(net 30 ""/PB12"")
+(net 31 ""/PB9"")
+(net 32 ""/PB8"")
+(net 33 ""VDD"")
+(net 34 ""/BOOT"")
+(net 35 ""/PB7"")
+(net 36 ""/PB6"")
+(net 37 ""/PB5"")
+(net 38 ""/PB4"")
+(net 39 ""/PB3"")
+(net 40 ""/PD2"")
+(net 41 ""/PC12"")
+(net 42 ""/PC11"")
+(net 43 ""/PC10"")
+(net 44 ""/PA15"")
+(net 45 ""/PA14"")
+(net 46 ""/PF7"")
+(net 47 ""/PF6"")
+(net 48 ""/PA13"")
+(net 49 ""/PA12"")
+(net 50 ""/PA11"")
+(net 51 ""/PA10"")
+(net 52 ""/PA9"")
+(net 53 ""/PA8"")
+(net 54 ""/PC9"")
+(net 55 ""/PC8"")
+(net 56 ""/PC7"")
+(net 57 ""/PC6"")
+(net 58 ""/PB15"")
+(net 59 ""/PB14"")
+(net 60 ""/PB13"")
+(net 61 ""/Power/Battery +"")
+(net 62 ""/Power/+5V jumped"")
+(net 63 ""Net-(C2-Pad1)"")
+(net 64 ""Net-(C3-Pad2)"")
+(net 65 ""/microcontroller_interfacing/+5V"")
+(net 66 ""Net-(C6-Pad1)"")
+(net 67 ""/Sensing/Proximity_Sensor/VCC"")
+(net 68 ""/Power/+5V (protected_jumped)"")
+(net 69 ""/Power/+5V (REVERSE PROTECTED)"")
+(net 70 ""Net-(D1-Pad2)"")
+(net 71 ""/Power/+5V (INPUT PROTECTED)"")
+(net 72 ""Net-(D4-Pad1)"")
+(net 73 ""Net-(D5-Pad1)"")
+(net 74 ""/+3V0"")
+(net 75 ""/+5V"")
+(net 76 ""/Power/Relay_OUT"")
+(net 77 ""/Sensing/Temperature_Sensor/3.3V"")
+(net 78 ""/microcontroller_interfacing/D+"")
+(net 79 ""/microcontroller_interfacing/D-"")
+(net 80 ""/Sensing/Temperature_Sensor/Vdd"")
+(net 81 ""unconnected-(U1-Pad2)"")
+(net 82 ""unconnected-(U1-Pad5)"")
+(net 83 ""unconnected-(U1-Pad6)"")
+(net 84 ""unconnected-(U3-Pad9)"")
+(net 85 ""unconnected-(U3-Pad10)"")
+(net 86 ""unconnected-(U3-Pad11)"")
+(net 87 ""unconnected-(U3-Pad12)"")
+(net 88 ""unconnected-(U3-Pad13)"")
+(net 89 ""unconnected-(U3-Pad14)"")
+(net 90 ""unconnected-(U3-Pad15)"")
+(net 91 ""unconnected-(U6-Pad7)"")
+(net 92 ""Net-(C8-Pad1)"")
+(net 93 ""Net-(D3-Pad2)"")
+(net 94 ""Net-(D6-Pad1)"")
+(net 95 ""Net-(D7-Pad1)"")
+(net 96 ""Net-(D8-Pad2)"")
+(net 97 ""Net-(D9-Pad2)"")
+(net 98 ""Net-(JP2-Pad2)"")
+(net 99 ""Net-(JP7-Pad2)"")
+(net 100 ""Net-(JP8-Pad2)"")
+(net 101 ""Net-(JP9-Pad1)"")
+(net 102 ""Net-(JP10-Pad1)"")
+(net 103 ""Net-(Q2-Pad2)"")
+(net 104 ""unconnected-(Q3-Pad2)"")
+(net 105 ""unconnected-(Q3-Pad3)"")
+(net 106 ""unconnected-(Q3-Pad6)"")
+(net 107 ""unconnected-(Q3-Pad7)"")
+(net 108 ""unconnected-(Q3-Pad8)"")
+(net 109 ""Net-(R3-Pad2)"")
+(net 110 ""Net-(R10-Pad2)"")
+(net 111 ""Net-(R12-Pad2)"")
+(net 112 ""Net-(R15-Pad2)"")
+(net 113 ""unconnected-(U6-Pad5)"")
+(net 114 ""unconnected-(U6-Pad6)"")
+(net 115 ""unconnected-(U7-Pad1)"")
+(net 116 ""unconnected-(U7-Pad2)"")
+(net 117 ""unconnected-(U7-Pad3)"")
+(net 118 ""unconnected-(U7-Pad7)"")
+(net 119 ""unconnected-(U7-Pad11)"")
+(net 120 ""unconnected-(J1-Pad5)"")
+(net 121 ""unconnected-(J1-Pad6)"")
+
+
+  (gr_text ""Heather, Kelvin, Noah\nGroup 5"" (at 0 0) (layer ""F.SilkS"") (tstamp d9423b2b-b149-4705-8766-9967bab785a2)
+    (effects (font (size 2 2) (thickness 0.25)))
+  )
+
+)"
+Conn_01x33_Female,"J3,J4",PinHeader_1x33_P2.54mm_Vertical,C12345 (example)
+CH340G,U3,SOIC-16_3.9x9.9mm_P1.27mm,
+18650,BT1,18650_Holder,
+SolderJumper_2_Bridged,JP5,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+BAT54S,D1,D_SOT-23_ANK,
+100nF,C10,C_0402_1005Metric,
+330,R15,R_0402_1005Metric,
+100,R1,R_0603_1608Metric,
+SolderJumper_2_Bridged,JP7,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+AO3401A,Q1,SOT-23,
+VL6180XV0NR_1,U7,LGA-12_L4.8-W2.8-P0.75-BL,
+USB_Micro_B,U4,C404969_Micro_USB,
+10k,R7,R_0402_1005Metric,
+22uF,C2,C_0603_1608Metric,
+2.7k,R4,R_0402_1005Metric,
+33pF,C6,C_0402_1005Metric,
+SolderJumper_2_Bridged,JP10,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+BZT52C3V0,D7,D_SOD-123,
+LP2951-33DR,U1,SOIC-8_3.9x4.9mm_P1.27mm,
+FDS6690A,Q3,SOIC-8_3.9x4.9mm_P1.27mm,
+10k,R17,R_0402_1005Metric,
+330,R12,R_0402_1005Metric,
+SolderJumper_2_Bridged,JP8,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+SolderJumper_2_Bridged,JP6,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+SolderJumper_2_Bridged,JP9,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+ZMM4V7-M,D5,LL-34_L3.5-W1.5-RD,
+MCP9700T-ETT,U8,SOT-23,
+DIODE,D2,DO-214AC_L4.3-W2.7-LS5.3-RD,
+4.7k,R5,R_0402_1005Metric,
+806K,R3,R_0402_1005Metric,
+10k,R8,R_0402_1005Metric,
+DIODE,D6,DO-214AC_L4.3-W2.7-LS5.3-RD,
+LED,D8,LED_0603_1608Metric,
+LM358DR2G,U6,SOIC-8_3.9x4.9mm_P1.27mm,
+220,R16,R_0402_1005Metric,
+G5NB,K1,Relay_SPST_Omron-G5Q-1A,
+Conn_01x33_Female,J2,PinHeader_1x33_P2.54mm_Vertical,
+0.1uF,C4,C_0402_1005Metric,
+82,R6,R_0603_1608Metric,
+SolderJumper_2_Bridged,JP2,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+100uF,C5,C_1206_3216Metric,
+LED,D9,LED_0603_1608Metric,
+MMBT3904,Q2,SOT-23,
+4.7nF,C11,C_0402_1005Metric,
+1k,R10,R_0402_1005Metric,
+Conn_01x33_Female,J5,PinHeader_1x33_P2.54mm_Vertical,
+AT24C256C-SSHL-T,U5,SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL,
+330pF,C3,C_0402_1005Metric,
+ZMM5V1-M,D3,LL-34_L3.5-W1.5-RD,
+SolderJumper_2_Bridged,JP1,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+Conn_01x10_Male,J1,PinHeader_1x10_P2.54mm_Vertical,
+2M,R2,R_0805_2012Metric,
+0.1uF,C9,C_0402_1005Metric,
+33pF,C8,C_0402_1005Metric,
+150,R9,R_0402_1005Metric,
+12MHz Crystal,X1,OSC-SMD_4P-L3.2-W2.5-BL,
+SolderJumper_2_Bridged,JP3,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+10k,R14,R_0402_1005Metric,
+100k,R11,R_0402_1005Metric,
+10nF,C7,C_0402_1005Metric,
+330,R13,R_0402_1005Metric,
+SolderJumper_2_Bridged,JP4,SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm,
+AMS1117,U2,SOT-223-3_TabPin2,
+LED,D4,LED_0603_1608Metric,
+50K,RV1,VG039NCHXTB503,
+3.3V,TP2,TestPoint_Pad_D1.0mm,
+TempOut,TP6,TestPoint_Pad_D1.0mm,
+BatPP,TP1,TestPoint_Pad_D1.0mm,
+TempVcc,TP5,TestPoint_Pad_D1.0mm,
+UsbOn,TP3,TestPoint_Pad_D1.0mm,
+CutP,TP4,TestPoint_Pad_D1.0mm,
