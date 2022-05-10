@@ -11,8 +11,6 @@ extern char SensorState;
 
 void TempSensor_Start(ADC_HandleTypeDef *hadc);
 
-void TempSensor_Test(void);
-
 float TempSensor_GetMeasurement(int maxTime);
 
 char TempSensor_HasStarted(void);

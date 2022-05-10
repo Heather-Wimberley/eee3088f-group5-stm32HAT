@@ -1,4 +1,4 @@
-#include "temp.h"
+#include "../inc/temp.h"
 
 
 ADC_HandleTypeDef *ADCState;
@@ -47,4 +47,11 @@ char TempSensor_HasStarted(void){
 
 void EnsureHandleValid(void){
 	assert_param(ADCState != NULL);
+}
+
+void TempSensor_Stop(void) {
+	// Switching off the GPIO Pin is enough to switch off the sensor
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+	//Problematic, whether switching off this adc might switch it off for the end user
+	HAL_ADC_Stop(ADCState);
 }
