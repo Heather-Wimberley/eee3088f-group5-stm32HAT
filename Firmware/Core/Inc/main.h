@@ -60,6 +60,7 @@ void Error_Handler(void);
 #define B1_GPIO_Port GPIOA
 #define USB_on_Pin GPIO_PIN_4
 #define USB_on_GPIO_Port GPIOA
+#define USB_on_EXTI_IRQn EXTI4_15_IRQn
 #define Temp_Active_Pin GPIO_PIN_0
 #define Temp_Active_GPIO_Port GPIOB
 #define Temp_Data_Pin GPIO_PIN_1

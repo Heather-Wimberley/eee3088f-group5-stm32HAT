@@ -1038,11 +1038,6 @@
     (uuid fdfe55f2-c5eb-42a2-9f21-1ee37939570a)
   )
 
-  (text "Useful to watch: https://www.youtube.com/watch?v=gGix1oYhTRs"
-    (at 110.49 195.58 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 18a8e287-d1c7-45b6-a196-710aa99585f3)
-  )
   (text "16 units apart = 2.54 x 16" (at 225.425 20.32 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9328bf5e-c997-4667-847d-cf51587a0583)

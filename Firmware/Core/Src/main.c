@@ -58,18 +58,22 @@ static void MX_I2C1_Init(void);
 static void MX_RTC_Init(void);
 static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-void set_time(void);
+void set_time(uint8_t hour,uint8_t minute, uint8_t second, uint8_t Month, uint8_t Date, uint8_t Year);
 void get_time_to_store(void);
+void debugPrintln(UART_HandleTypeDef *uart_handle,char _out[]);
+void store_one_set();
+void read_all_data (void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t dataRead[128];
-
-uint8_t dataWrite[100];
+uint8_t dataRead[640];
 uint8_t time[3];
 uint8_t date[3];
-
+uint8_t proximity[4] = {1,1,1,1};
+uint8_t temp[4] = {2,2,2,2};
+uint8_t ID = 1;
+uint8_t datas[16];
 /* USER CODE END 0 */
 
 /**
@@ -103,23 +107,21 @@ int main(void)
   MX_RTC_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  set_time();
 
-  /*for (int i = 0; i<512;i++)
+  for (int i = 0; i<512;i++)
   {
 	  EEPROM_PageErase(i);
   }
-*/
-  EEPROM_Read(3, 0, dataRead, 128);
-  HAL_Delay (200);
-  get_time_to_store();
-  get_time_to_store();
+  read_all_data();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  store_one_set();
+	  read_all_data();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -260,19 +262,19 @@ static void MX_RTC_Init(void)
 
   /** Initialize RTC and set the Time and Date
   */
-  sTime.Hours = 0x10;
-  sTime.Minutes = 0x20;
-  sTime.Seconds = 0x30;
+  sTime.Hours = 0x16;
+  sTime.Minutes = 0x30;
+  sTime.Seconds = 0x0;
   sTime.DayLightSaving = RTC_DAYLIGHTSAVING_NONE;
   sTime.StoreOperation = RTC_STOREOPERATION_RESET;
   if (HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BCD) != HAL_OK)
   {
     Error_Handler();
   }
-  sDate.WeekDay = RTC_WEEKDAY_FRIDAY;
-  sDate.Month = RTC_MONTH_APRIL;
-  sDate.Date = 0x29;
-  sDate.Year = 0x0;
+  sDate.WeekDay = RTC_WEEKDAY_THURSDAY;
+  sDate.Month = RTC_MONTH_MAY;
+  sDate.Date = 0x19;
+  sDate.Year = 0x22;
 
   if (HAL_RTC_SetDate(&hrtc, &sDate, RTC_FORMAT_BCD) != HAL_OK)
   {
@@ -347,7 +349,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : USB_on_Pin */
   GPIO_InitStruct.Pin = USB_on_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(USB_on_GPIO_Port, &GPIO_InitStruct);
 
@@ -377,16 +379,25 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(Proximity_Interrupt_GPIO_Port, &GPIO_InitStruct);
 
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI4_15_IRQn, 1, 0);
+  HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
+
 }
 
 /* USER CODE BEGIN 4 */
-void set_time (void)
+void read_all_data (void)
+{
+	EEPROM_Read(1, 0, dataRead, 640);
+}
+
+void set_time (uint8_t hour,uint8_t minute, uint8_t second, uint8_t Month, uint8_t Date, uint8_t Year)
 {
   RTC_TimeTypeDef sTime;
   RTC_DateTypeDef sDate;
-  sTime.Hours = 0x10;
-	sTime.Minutes = 0x20;
-	sTime.Seconds = 0x30;
+  sTime.Hours = hour;
+	sTime.Minutes = minute;
+	sTime.Seconds = second;
 	sTime.DayLightSaving = RTC_DAYLIGHTSAVING_NONE;
 	sTime.StoreOperation = RTC_STOREOPERATION_RESET;
 	if (HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BCD) != HAL_OK)
@@ -394,9 +405,9 @@ void set_time (void)
 		Error_Handler();
 	}
 	sDate.WeekDay = RTC_WEEKDAY_FRIDAY;
-	sDate.Month = RTC_MONTH_APRIL;
-	sDate.Date = 0x29;
-	sDate.Year = 0x22;
+	sDate.Month = Month;
+	sDate.Date = Date;
+	sDate.Year = Year;
 
 	if (HAL_RTC_SetDate(&hrtc, &sDate, RTC_FORMAT_BCD) != HAL_OK)
 	{
@@ -407,21 +418,49 @@ void set_time (void)
 
 void get_time_to_store(void)
 {
- RTC_DateTypeDef gDate;
- RTC_TimeTypeDef gTime;
-/* Get the RTC current Time */
- HAL_RTC_GetTime(&hrtc, &gTime, RTC_FORMAT_BIN);
-/* Get the RTC current Date */
- HAL_RTC_GetDate(&hrtc, &gDate, RTC_FORMAT_BIN);
-/* Display time Format: hh:mm:ss */
- time[0] = gTime.Hours;
- time[1] = gTime.Minutes;
- time[2] = gTime.Seconds;
-/* Display date Format: dd-mm-yy */
- date[0] = gDate.Date;
- date[1] = gDate.Month;
- date[2] = gDate.Year;
+	 RTC_DateTypeDef gDate;
+	 RTC_TimeTypeDef gTime;
+	/* Get the RTC current Time */
+	 HAL_RTC_GetTime(&hrtc, &gTime, RTC_FORMAT_BIN);
+	/* Get the RTC current Date */
+	 HAL_RTC_GetDate(&hrtc, &gDate, RTC_FORMAT_BIN);
+	/* Display time Format: hh:mm:ss */
+	 time[0] = gTime.Hours;
+	 time[1] = gTime.Minutes;
+	 time[2] = gTime.Seconds;
+	/* Display date Format: dd-mm-yy */
+	 date[0] = gDate.Date;
+	 date[1] = gDate.Month;
+	 date[2] = gDate.Year;
 }
+
+void store_one_set()
+{
+	get_time_to_store();
+	if(ID<1024)
+	{
+
+		datas[0] = ID;
+		memcpy(datas + 1, temp, 4 * sizeof(uint8_t));
+		memcpy(datas + 5, proximity, 4 * sizeof(uint8_t));
+		memcpy(datas + 9, time, 3 * sizeof(uint8_t));
+		memcpy(datas + 12, date, 3 * sizeof(uint8_t));
+		uint8_t pages = (ID-1)/4+1;
+		uint16_t sizes = 16;
+		uint16_t offsets = (ID-1)%4*16;
+
+		EEPROM_Write (pages, offsets , datas ,sizes);
+		ID++;
+	}
+}
+
+void debugPrintln(UART_HandleTypeDef *uart_handle,char _out[])
+{
+	HAL_UART_Transmit(uart_handle, (uint8_t *) _out,strlen(_out), 60);
+	char newline[2] = "\r\n";
+	HAL_UART_Transmit(uart_handle, (uint8_t *)newline, 2, 10);
+}
+
 /* USER CODE END 4 */
 
 /**
