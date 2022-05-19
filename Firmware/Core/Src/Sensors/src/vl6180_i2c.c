@@ -264,7 +264,7 @@ int VL6180_I2CRead(VL6180Dev_t dev, uint8_t *buff, uint8_t len) {
 
 	i2cHandler = GetI2CHandler();
 
-	return HAL_I2C_Master_Receive(i2cHandler, dev, buff, len, 1);
+	return HAL_I2C_Master_Receive(i2cHandler, dev, buff, len, 20);
 
 
 
@@ -273,6 +273,6 @@ int VL6180_I2CRead(VL6180Dev_t dev, uint8_t *buff, uint8_t len) {
 int  VL6180_I2CWrite(VL6180Dev_t dev, uint8_t  *buff, uint8_t len){
 	i2cHandler = GetI2CHandler();
 
-	return HAL_I2C_Master_Transmit(i2cHandler, dev, buff, len, 1);
+	return HAL_I2C_Master_Transmit(i2cHandler, dev, buff, len, 20);
 
 }

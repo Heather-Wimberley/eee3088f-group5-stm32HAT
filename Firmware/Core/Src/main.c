@@ -20,6 +20,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "Sensors/inc/sensors.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -82,7 +83,6 @@ int main(void)
   /* USER CODE BEGIN 1 */
 
 
-
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -109,6 +109,8 @@ int main(void)
   MX_ADC_Init();
   MX_TIM14_Init();
   /* USER CODE BEGIN 2 */
+
+  Sensors_Start(&hadc, &hi2c1, 60);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -116,6 +118,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	 struct SensorData data;
+	  float result = Sensors_GetMeasurement(&data, 1);
+	  //float result =HAL_I2C_IsDeviceReady(&hi2c1, (0x29 & 0x7f) << 1, 3, 1);
 
     /* USER CODE BEGIN 3 */
   }

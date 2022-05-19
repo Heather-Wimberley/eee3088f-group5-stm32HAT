@@ -508,15 +508,15 @@ int VL6180_GetCachedByte(VL6180Dev_t dev, uint16_t  index, uint8_t *pValue)
 {
 	int status;
 	uint8_t Value;
-	if (VL6180DevDataGet(dev, CacheFilled) != 0 &&
-		index >= VL6180_FIRST_CACHED_INDEX &&
-		index <= VL6180_LAST_CACHED_INDEX) {
-		Value = VL6180DevDataGet(dev, CachedRegs[index - VL6180_FIRST_CACHED_INDEX]);
-		*pValue = Value;
-		status = 0;
-	} else {
+	//if (VL6180DevDataGet(dev, CacheFilled) != 0 &&
+	//	index >= VL6180_FIRST_CACHED_INDEX &&
+	//	index <= VL6180_LAST_CACHED_INDEX) {
+	//	Value = VL6180DevDataGet(dev, CachedRegs[index - VL6180_FIRST_CACHED_INDEX]);
+	//	*pValue = Value;
+	//	status = 0;
+	//} else {
 		status =  VL6180_RdByte(dev, index, pValue);
-	}
+	//}
 	return status;
 }
 
