@@ -37,7 +37,7 @@ SensorErrorType Sensors_GetMeasurement(struct SensorData *out, int maxTime){
 	if (TempSensor_HasStarted() != 1){
 		return 1;
 	}
-	if (ProximitySensor_IsReady() != 1){
+	if (ProximitySensor_IsReady() != OK){
 		return 1;
 	}
 	float temp = 0;

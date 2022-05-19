@@ -110,7 +110,7 @@ int main(void)
   MX_TIM14_Init();
   /* USER CODE BEGIN 2 */
 
-  Sensors_Start(&hadc, &hi2c1, 60);
+  Sensors_Start(&hadc, &hi2c1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -119,7 +119,7 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	 struct SensorData data;
-	  float result = Sensors_GetMeasurement(&data, 1);
+	 SensorErrorType result = Sensors_GetMeasurement(&data, 1);
 	  //float result =HAL_I2C_IsDeviceReady(&hi2c1, (0x29 & 0x7f) << 1, 3, 1);
 
     /* USER CODE BEGIN 3 */
