@@ -155,12 +155,6 @@ void EXTI4_15_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-{
-    if ( GPIO_Pin == USB_on_Pin)
-    {
-    	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_SET);
-    }
-}
+
 /* USER CODE END 1 */
 

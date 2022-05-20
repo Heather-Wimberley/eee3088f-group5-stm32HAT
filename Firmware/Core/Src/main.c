@@ -464,6 +464,14 @@ void store_one_set(uint32_t *temp, uint32_t *proximity)
 	}
 }
 
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    if ( GPIO_Pin == USB_on_Pin)
+    {
+    	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, GPIO_PIN_SET);
+    }
+}
 /* USER CODE END 4 */
 
 /**
