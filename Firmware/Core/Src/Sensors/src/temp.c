@@ -39,7 +39,7 @@ SensorErrorType TempSensor_GetMeasurement(int maxTime, float* result) {
 
 	// change the voltage result to temperature according to MCP9700 datasheet
 
-	(*result) = (100*voltage) - 50;
+	(*result) = (75*voltage) - 50;
 	return OK;
 
 }

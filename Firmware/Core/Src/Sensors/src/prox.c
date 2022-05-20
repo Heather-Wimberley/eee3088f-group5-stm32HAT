@@ -57,7 +57,7 @@ SensorErrorType ProximitySensor_GetSingleShotMeasurement(int32_t* result) {
 	VL6180_RangePollMeasurement(vl6180Handler, &Range);
 	if (Range.errorStatus != 0){
 		//Error Handler
-		return PROX_MEASURE_ERROR;
+		//return PROX_MEASURE_ERROR;
 	}
 
 	// Range measurement available in Range.mm

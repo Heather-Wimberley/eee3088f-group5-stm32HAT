@@ -20,10 +20,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "Sensors/inc/sensors.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "./sensors/inc/sensors.h"
 #include "EEPROM.h"
 #include <stdio.h>
 #include "string.h"
@@ -59,23 +59,19 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_RTC_Init(void);
+static void MX_ADC_Init(void);
 /* USER CODE BEGIN PFP */
 void set_time(uint8_t hour,uint8_t minute, uint8_t second, uint8_t Month, uint8_t Date, uint8_t Year);
-void get_time_to_store(void);
-void debugPrintln(UART_HandleTypeDef *uart_handle,char _out[]);
-void store_one_set();
-void read_all_data (void);
+void get_time_to_store(uint8_t (*time)[3],uint8_t (*date)[3]);
+void store_one_set(uint32_t *temp, uint32_t *proximity);
+void read_all_data (uint8_t (*dataRead)[32678]);
+void get_sensor_data (uint32_t *proximity,uint32_t *temp);
+void Initialise(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t dataRead[640];
-uint8_t time[3];
-uint8_t date[3];
-uint8_t proximity[4] = {1,1,1,1};
-uint8_t temp[4] = {2,2,2,2};
 uint8_t ID = 1;
-uint8_t datas[16];
 /* USER CODE END 0 */
 
 /**
@@ -84,50 +80,20 @@ uint8_t datas[16];
   */
 int main(void)
 {
-  /* USER CODE BEGIN 1 */
 
-
-  /* USER CODE END 1 */
-
-  /* MCU Configuration--------------------------------------------------------*/
-
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
-
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
-  /* Configure the system clock */
-  SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-  /* USER CODE END SysInit */
-
-  /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_I2C1_Init();
-  MX_RTC_Init();
-  /* USER CODE BEGIN 2 */
-
-  for (int i = 0; i<512;i++)
-  {
-	  EEPROM_PageErase(i);
-  }
-  read_all_data();
-
+	Initialise();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  store_one_set();
-	  read_all_data();
+	  uint32_t proximity, temp;
+	  uint8_t dataRead[32678];
+	  get_sensor_data(&proximity, &temp);
+	  store_one_set(&temp, &proximity);
+	  read_all_data(&dataRead);
     /* USER CODE END WHILE */
-	 struct SensorData data;
-	 SensorErrorType result = Sensors_GetMeasurement(&data, 1);
-	  //float result =HAL_I2C_IsDeviceReady(&hi2c1, (0x29 & 0x7f) << 1, 3, 1);
 
     /* USER CODE BEGIN 3 */
 
@@ -403,9 +369,35 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void read_all_data (void)
+void Initialise(void)
 {
-	EEPROM_Read(1, 0, dataRead, 640);
+	  HAL_Init();
+
+	  SystemClock_Config();
+	  MX_GPIO_Init();
+	  MX_I2C1_Init();
+	  MX_RTC_Init();
+	  MX_ADC_Init();
+	  Sensors_Start(&hadc, &hi2c1);
+
+	  for (int i = 0; i<512;i++)
+	  {
+		  EEPROM_PageErase(i);
+	  }
+}
+
+void get_sensor_data(uint32_t *proximity,uint32_t *temp)
+{
+	 struct SensorData data;
+	 SensorErrorType result = Sensors_GetMeasurement(&data, 1);
+	 *proximity = data.prox;
+	 *temp = data.temp;
+
+}
+
+void read_all_data (uint8_t (*dataRead)[32678])
+{
+	EEPROM_Read(1, 0, *dataRead, 32768);
 }
 
 void set_time (uint8_t hour,uint8_t minute, uint8_t second, uint8_t Month, uint8_t Date, uint8_t Year)
@@ -433,7 +425,7 @@ void set_time (uint8_t hour,uint8_t minute, uint8_t second, uint8_t Month, uint8
   HAL_RTCEx_BKUPWrite(&hrtc, RTC_BKP_DR1, 0x32F2); // backup register
 }
 
-void get_time_to_store(void)
+void get_time_to_store(uint8_t (*time)[3],uint8_t (*date)[3])
 {
 	 RTC_DateTypeDef gDate;
 	 RTC_TimeTypeDef gTime;
@@ -442,24 +434,25 @@ void get_time_to_store(void)
 	/* Get the RTC current Date */
 	 HAL_RTC_GetDate(&hrtc, &gDate, RTC_FORMAT_BIN);
 	/* Display time Format: hh:mm:ss */
-	 time[0] = gTime.Hours;
-	 time[1] = gTime.Minutes;
-	 time[2] = gTime.Seconds;
+	 *time[0] = gTime.Hours;
+	 *time[1] = gTime.Minutes;
+	 *time[2] = gTime.Seconds;
 	/* Display date Format: dd-mm-yy */
-	 date[0] = gDate.Date;
-	 date[1] = gDate.Month;
-	 date[2] = gDate.Year;
+	 *date[0] = gDate.Date;
+	 *date[1] = gDate.Month;
+	 *date[2] = gDate.Year;
 }
 
-void store_one_set()
+void store_one_set(uint32_t *temp, uint32_t *proximity)
 {
-	get_time_to_store();
+	uint8_t time[3], date[3];
+	get_time_to_store(&time, &date);
 	if(ID<1024)
 	{
-
+		uint8_t datas[16];
 		datas[0] = ID;
-		memcpy(datas + 1, temp, 4 * sizeof(uint8_t));
-		memcpy(datas + 5, proximity, 4 * sizeof(uint8_t));
+		memcpy(datas + 1, &temp, sizeof(uint32_t));
+		memcpy(datas + 5, &proximity, sizeof(uint32_t));
 		memcpy(datas + 9, time, 3 * sizeof(uint8_t));
 		memcpy(datas + 12, date, 3 * sizeof(uint8_t));
 		uint8_t pages = (ID-1)/4+1;
@@ -469,13 +462,6 @@ void store_one_set()
 		EEPROM_Write (pages, offsets , datas ,sizes);
 		ID++;
 	}
-}
-
-void debugPrintln(UART_HandleTypeDef *uart_handle,char _out[])
-{
-	HAL_UART_Transmit(uart_handle, (uint8_t *) _out,strlen(_out), 60);
-	char newline[2] = "\r\n";
-	HAL_UART_Transmit(uart_handle, (uint8_t *)newline, 2, 10);
 }
 
 /* USER CODE END 4 */
