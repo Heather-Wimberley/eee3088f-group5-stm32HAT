@@ -1,7 +1,7 @@
 Thank you for your interest in contributing to this project. The group very much encourages it. The following is a set of guidelines on how to contribute to the project: 
 
  
-- Propose your contribution by sending an email to ‘uctgroup5project@gmail.com’ and submitting a pull request to our git repository. A proposal template is available here. 
+- Propose your contribution by sending an email to ‘uctgroup5project@gmail.com’ and submitting a pull request to our git repository. A proposal template is available [here](https://gitlab.com/wmbhea001/eee088f-group-5/-/tree/main). 
 
 - If your contribution proposal is accepted, you will receive an acceptance email and your pull request will be accepted. 
 
