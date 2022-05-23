@@ -104,7 +104,7 @@ Please refer to [Contributing.md](https://gitlab.com/wmbhea001/eee088f-group-5/-
 Project designers are Kelvin Yankey, Heather Wimberley and Noah Havik.
 
 ## License
-Open Source Project as long as creators are linked.
+This project is bound by the Apache License 2.0
 
 ## Project status
 Project is currently under development.
