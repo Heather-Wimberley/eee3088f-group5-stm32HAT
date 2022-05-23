@@ -16,7 +16,7 @@
     SensorMode. Indicates whether the sensor was started in polling or interrupt mode.
     0 is not started. 1 is polling. 2 is interrupt
 */
-char SensorMode = 0;
+extern char SensorMode;
 
 SensorErrorType Sensors_Start(ADC_HandleTypeDef *hadc, I2C_HandleTypeDef* i2cHandler);
 SensorErrorType Sensors_Stop();

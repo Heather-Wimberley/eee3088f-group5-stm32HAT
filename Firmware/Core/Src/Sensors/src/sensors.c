@@ -7,6 +7,7 @@
 
 #include "../inc/sensors.h"
 
+char SensorMode = 0;
 
 /* @description
  * Initialize the Sensors to start collecting data
@@ -98,7 +99,7 @@ SensorErrorType Sensors_Start_IT(ADC_HandleTypeDef *hadc, I2C_HandleTypeDef* i2c
 	if (result != OK){
 			return result;
 	}
-	SensorMode = 2
+	SensorMode = 2;
 	return OK;
 
 
