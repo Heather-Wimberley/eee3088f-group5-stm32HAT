@@ -21,8 +21,12 @@ SensorErrorType ProximitySensor_Start(I2C_HandleTypeDef* i2cHandler);
 
 SensorErrorType ProximitySensor_Stop(void);
 SensorErrorType ProximitySensor_IsReady(void);
-
 SensorErrorType ProximitySensor_GetSingleShotMeasurement(int32_t* result);
+
+SensorErrorType ProximitySensor_OnInterruptStarted(void);
+SensorErrorType ProximitySensor_Start_IT(I2C_HandleTypeDef* i2cHandler, int freq);
+SensorErrorType ProximitySensor_OnInterruptStarted(void);
+SensorErrorType ProximitySensor_OnInterruptDetected(int32_t* result);
 
 
 #endif /* SRC_SENSORS_VL6180API_PROX_H_ */

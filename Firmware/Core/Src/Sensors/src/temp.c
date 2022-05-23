@@ -4,8 +4,12 @@
 ADC_HandleTypeDef *ADCState;
 char SensorState = 0;
 
-//Starts the temperature sensor
-// hadc is the handle pointer to the global adc handler
+/* @description
+ * Starts the temperature sensor
+ * @arguments
+ * hadc is the handle pointer to the global adc handler
+ *
+ */
 SensorErrorType TempSensor_Start(ADC_HandleTypeDef *hadc){
 	//Switch on the GPIO Pin controlling the sensor
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
@@ -21,10 +25,14 @@ SensorErrorType TempSensor_Start(ADC_HandleTypeDef *hadc){
 
 }
 
-// Get the current measurement from the temperature sensor
-// result is a pointer to a double which will hold the result
-// maxTime is the maximum amount of time you can wait before a result needs to be returned
-// Can be dictated by the sampling rate
+/*
+ * @description
+ * Get the current measurement from the temperature sensor
+ * @arguments
+ * result - is a pointer to a double which will hold the result
+ * maxTime - is the maximum amount of time you can wait before a result needs to be returned
+ * Can be dictated by the sampling rate
+ */
 SensorErrorType TempSensor_GetMeasurement(int maxTime, float* result) {
 	assert_param(TempSensor_HasStarted());
 	HAL_ADC_Start(ADCState);
@@ -44,15 +52,28 @@ SensorErrorType TempSensor_GetMeasurement(int maxTime, float* result) {
 
 }
 
-char TempSensor_HasStarted(void){
+/*
+ * @description
+ * Checks if the temperature has started
+ * @returns
+ * SensorErrorType
+ */
+SensorErrorType TempSensor_HasStarted(void){
 	EnsureHandleValid();
-	return SensorState;
+	if (SensorState){
+		return OK;
+	}
+	return TEMP_NOT_STARTED;
 }
 
 void EnsureHandleValid(void){
 	assert_param(ADCState != NULL);
 }
 
+/*
+ * @description
+ * Stop the temperature sensor
+ */
 SensorErrorType TempSensor_Stop(void) {
 	// Switching off the GPIO Pin is enough to switch off the sensor
 	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);

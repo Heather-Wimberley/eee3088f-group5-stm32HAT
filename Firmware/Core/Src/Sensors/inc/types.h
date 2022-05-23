@@ -15,11 +15,10 @@ typedef enum SensorErrorType {
 	PROX_CALIBRATION_ERROR,
 	PROX_INIT_ERROR,
 	PROX_MEASURE_ERROR,
-	PROX_NOT_RESPONDING
+	PROX_NOT_RESPONDING,
+	TEMP_NOT_STARTED,
+	SENSOR_INIT_ERROR
 } SensorErrorType;
-
-
-typedef void (*OnSensorErrorHandler) (enum SensorErrorType type);
 struct SensorData {
 	float temp;
 	int32_t prox;

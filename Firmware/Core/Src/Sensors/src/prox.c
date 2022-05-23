@@ -9,6 +9,16 @@
 
 VL6180Dev_t vl6180Handler = (PROX_I2C_ADDRESS & 0x7f) << 1;
 
+/*
+ * @description
+ * Starts the proximity sensor
+ *
+ * @arguments
+ * @i2cHandler - The I2C Handler
+ *
+ * @returns SensorerrorType
+ */
+
 SensorErrorType ProximitySensor_Start(I2C_HandleTypeDef* i2cHandler) {
 	// For now, the handler is equal to the i2c address of the chip
 	// Workaround for not having the i2c handler for hal in vl6180 code
@@ -43,7 +53,10 @@ SensorErrorType ProximitySensor_Start(I2C_HandleTypeDef* i2cHandler) {
 }
 
 
-
+/*
+ * @description
+ * Internal function to ensure that the various handlers the api uses are still valid
+ */
 
 void EnsureHandlersValid(void){
 	assert_param(vl6180Handler != NULL);
@@ -51,7 +64,12 @@ void EnsureHandlersValid(void){
 	GetI2CHandler();
 }
 
-
+/*
+ * @description
+ * Gets a distance measurement once at a time
+ * @arguments
+ * @result - A pointer to the integer variable holding the result of the operation in millimetres
+ */
 SensorErrorType ProximitySensor_GetSingleShotMeasurement(int32_t* result) {
 	VL6180_RangeData_t Range;
 	VL6180_RangePollMeasurement(vl6180Handler, &Range);
@@ -65,7 +83,12 @@ SensorErrorType ProximitySensor_GetSingleShotMeasurement(int32_t* result) {
 	return OK;
 
 }
-
+/*
+ * @description
+ * Places the proximity sensor in standby mode
+ * @returns
+ * SensorErrorType
+ */
 SensorErrorType ProximitySensor_Stop(void){
 	//This will send the proximity sensor into hardware standby mode
 	VL6180_ClearAllInterrupt(vl6180Handler);
@@ -73,6 +96,12 @@ SensorErrorType ProximitySensor_Stop(void){
 	return OK;
 }
 
+/*
+ * @description
+ * Checks whether the proximity sensor is ready and responding
+ * @returns
+ * SensorErrorType
+ */
 SensorErrorType ProximitySensor_IsReady(void) {
 	I2C_HandleTypeDef* handler = GetI2CHandler();
 
@@ -80,4 +109,65 @@ SensorErrorType ProximitySensor_IsReady(void) {
 		return PROX_NOT_RESPONDING;
 	}
 	return OK;
+}
+
+/*
+ * @description
+ * Starts the proximity sensor in interrupt mode. User is responsible for setting up the GPIO interrupt in hardware
+ *
+ * @arguments
+ * @i2cHandler - The I2C Handler
+ * @freq - The frequency at which interrupts are called
+ */
+
+SensorErrorType ProximitySensor_Start_IT(I2C_HandleTypeDef* i2cHandler, int freq){
+	SensorErrorType result = ProximitySensor_Start(i2cHandler);
+	if (result != OK){
+		return result;
+	}
+	if (VL6180_FilterSetState(vl6180Handler, 0)){
+		//Returns 1 if error
+		return PROX_INIT_ERROR;
+	}
+	if (VL6180_RangeSetInterMeasPeriod(vl6180Handler, 1/freq)){
+			//Returns 1 if error
+			return PROX_INIT_ERROR;
+	}
+	if (VL6180_SetupGPIO1(vl6180Handler,  GPIOx_SELECT_GPIO_INTERRUPT_OUTPUT, INTR_POL_HIGH)){
+			//Returns 1 if error
+			return PROX_INIT_ERROR;
+	}
+
+	return OK;
+
+
+
+}
+/*
+ * @description
+ * Function to be called once the interrupt detection has been set up
+ */
+SensorErrorType ProximitySensor_OnInterruptStarted(void){
+	VL6180_ClearAllInterrupt(vl6180Handler);
+	VL6180_RangeStartContinuousMode(vl6180Handler);
+	return OK;
+}
+
+/*
+ * @description
+ * Called when the interrupt fires. Will output the measurement results
+ *
+ */
+
+SensorErrorType ProximitySensor_OnInterruptDetected(int32_t* result){
+	VL6180_RangeData_t Range;
+	if (VL6180_RangeGetMeasurement(vl6180Handler, &Range)){
+		return PROX_MEASURE_ERROR;
+	}
+	if (Range.errorStatus == 0){
+		return PROX_MEASURE_ERROR;
+	}
+	(*result) = Range.range_mm;
+	VL6180_RangeClearInterrupt(vl6180Handler);
+
 }

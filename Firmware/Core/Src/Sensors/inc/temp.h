@@ -14,7 +14,7 @@ SensorErrorType TempSensor_Start(ADC_HandleTypeDef *hadc);
 
 SensorErrorType TempSensor_GetMeasurement(int maxTime, float* result);
 
-char TempSensor_HasStarted(void);
+SensorErrorType TempSensor_HasStarted(void);
 
 SensorErrorType TempSensor_Stop(void);
 
