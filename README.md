@@ -40,14 +40,14 @@ Software:
 - STM32CubeIDE
 
 ### Setup
-1.	Plug the STM discovery board into the HAT with both USBs on the same side (pin headers and wires are used in the original version to account for the footprint issue).
+1.	Plug the STM discovery board into the HAT with both USBs on the same side (pin headers and wires are used in the original version to account for the footprint issue as seen below).
 
 ![Getting_Started_1](Getting_Started_1.jpg)
 
 *Figure 1: STM32F051 Discovery Board connected to Proximity and Temperature HAT (version 1 with wires)*
 
-2.	Connect the HAT to a power source either
-- Clip the 18650 battery holder to the connection shown below and place the battery in the holder (the lights on the discovery board should turn on)
+2.	Connect the HAT to a power source by either
+- Clipping the 18650 battery holder to the connection shown below and place the battery in the holder (the lights on the discovery board should turn on)
 
 ![Getting_Started_2](Getting_Started_2.jpg)
 
@@ -55,7 +55,7 @@ Software:
 
 OR
 
-- Plug the HAT into a USB power source using the USB micro-B which will turn on the light D4
+- Plugging the HAT into a USB power source using the USB micro-B which will turn on the light D4
 
 ![Getting_Started_3](Getting_Started_3.jpg)
 
