@@ -32,7 +32,7 @@ This repo contains all files needed to understand the functionality of the HAT a
 Any questions concerning the project can be addressed to the project developers at wmbhea001@myuct.ac.za; ynkkel001@myuct.ac.za or; hvknoa001@myuct.ac.za
 
 ## Contributing
-
+Please refer to [Contributing.md](https://gitlab.com/wmbhea001/eee088f-group-5/-/blob/main/CONTRIBUTING.md) for more information
 
 ## Authors and acknowledgment
 Project designers are Kelvin Yankey, Heather Wimberley and Noah Havik.
